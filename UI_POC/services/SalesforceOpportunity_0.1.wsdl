@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:ens="urn:sobject.enterprise.soap.sforce.com" xmlns:ent="urn:enterprise.soap.sforce.com" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://soap.sforce.com/2005/09/outbound" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://soap.sforce.com/2005/09/outbound">
+<types>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="urn:enterprise.soap.sforce.com">
+<!--  Our simple ID Type  -->
+<simpleType name="ID">
+<restriction base="xsd:string">
+<length value="18"/>
+<pattern value="[a-zA-Z0-9]{18}"/>
+</restriction>
+</simpleType>
+</schema>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="urn:sobject.enterprise.soap.sforce.com">
+<import namespace="urn:enterprise.soap.sforce.com"/>
+<!--  Base sObject (abstract)  -->
+<complexType name="sObject">
+<sequence>
+<element maxOccurs="unbounded" minOccurs="0" name="fieldsToNull" nillable="true" type="xsd:string"/>
+<element name="Id" nillable="true" type="ent:ID"/>
+</sequence>
+</complexType>
+<complexType name="AggregateResult">
+<complexContent>
+<extension base="ens:sObject">
+<sequence>
+<any maxOccurs="unbounded" minOccurs="0" namespace="##targetNamespace" processContents="lax"/>
+</sequence>
+</extension>
+</complexContent>
+</complexType>
+<complexType name="Opportunity">
+<complexContent>
+<extension base="ens:sObject">
+<sequence>
+<element minOccurs="0" name="AccountId" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="Advanced_Registration_Directions__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Advanced_Registration_Necessary__c" nillable="true" type="xsd:boolean"/>
+<element minOccurs="0" name="Amount" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="Anticipated_Places_of_Performance__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Award_Sub_Type__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Award_Type__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Awarded_Contract_ID__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Box_Link_to_Final_Package__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Brief_Description_of_Proposed_Research__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="COMM_Support__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="CampaignId" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="Center_Director__c" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="Center_Director_additional__c" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="Center__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="CloseDate" nillable="true" type="xsd:date"/>
+<element minOccurs="0" name="Co_Funding_Cost_Share__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Contract_set_up_in_JAMIS__c" nillable="true" type="xsd:boolean"/>
+<element minOccurs="0" name="Contribution_or_Donation_from_Funder__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Copyright_Publication_Issues__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="CreatedById" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="CreatedDate" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="Current_Project_or_PD_Number__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="DATESTAMP_Opp_Closed__c" nillable="true" type="xsd:date"/>
+<element minOccurs="0" name="DB_Competitor__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Date_PD_Number_Set_Up_in_JAMIS__c" nillable="true" type="xsd:date"/>
+<element minOccurs="0" name="Deadline_for_Proposal_Submission__c" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="Description" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Email_Address_for_PD_Assignment_Alert__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Email_for_CD_Approval_Alert__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="EventbriteSync__Buyer__c" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="EventbriteSync__EventbriteId__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Fee_Below_Urban_Policy__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Fee_Percent__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="Final_Co_Funding_Cost_Share_Amount__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="FiscalQuarter" nillable="true" type="xsd:int"/>
+<element minOccurs="0" name="FiscalYear" nillable="true" type="xsd:int"/>
+<element minOccurs="0" name="ForecastCategory" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="ForecastCategoryName" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Full_Discretion_to_Disseminate_Products__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Funder_Deadline_to_Receive_Questions__c" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="Funder_Decision_Date__c" nillable="true" type="xsd:date"/>
+<element minOccurs="0" name="HOURS_ELAPSED_btwn_create_and_PD_SubApp__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="HasOpenActivity" nillable="true" type="xsd:boolean"/>
+<element minOccurs="0" name="HasOpportunityLineItem" nillable="true" type="xsd:boolean"/>
+<element minOccurs="0" name="HasOverdueTask" nillable="true" type="xsd:boolean"/>
+<element minOccurs="0" name="IT_Component_to_Work__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Import_ID__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Indirect_Ceiling_Funder_Limits__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="IsClosed" nillable="true" type="xsd:boolean"/>
+<element minOccurs="0" name="IsDeleted" nillable="true" type="xsd:boolean"/>
+<element minOccurs="0" name="IsWon" nillable="true" type="xsd:boolean"/>
+<element minOccurs="0" name="JAMIS_Category_of_Funding_OriginalSource__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="JAMIS_Category_of_Funding_for_Account__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="LastActivityDate" nillable="true" type="xsd:date"/>
+<element minOccurs="0" name="LastModifiedById" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="LastModifiedDate" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="LastReferencedDate" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="LastViewedDate" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="LeadSource" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Loss_Reason__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Method_of_Submission_Directions__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Method_of_Submission__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Name" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Name_of_Contact_at_Funder__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="NextStep" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Original_PD_Budget_Amount_Approved__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="Original_Source_Account_Sub_Type__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Original_Source_Account_Type__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="OwnerId" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="PD_Budget_Count__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="PD_DOLLARS_AS_OF_AWARD_X_PROB_formula__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="PD_Number_Assignment_Stage__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="PD_Number_Request_Reason__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="PD_Number__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="PI_Employee_Number__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Pricebook2Id" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="Primary_Investigator_Contact__c" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="Prime_Funding_Originator_if_different__c" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="Probability" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="Probability_Custom__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="Proposal_Opportunity_in_Response_to_RfP__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="RFP_ID_or_Number__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Recommended_Budget_Templates__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="RecordTypeId" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="Senior_Contracts_Administrator__c" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="Soliciting_Contribution_or_Donation__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="StageName" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Subcontract_in_excess_of_700K__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Summary_of_Ceiling_Limit__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="SyncedQuoteId" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="SystemModstamp" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="TIMESTAMP_PD_Account_Created_in_JAMIS__c" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="TIMESTAMP_PD_Assigned__c" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="TIMESTAMP_PD_CD_Approval__c" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="TIMESTAMP_PD_SCA_Approval__c" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="TIMESTAMP_PD_Submitted_for_Approval__c" nillable="true" type="xsd:dateTime"/>
+<element minOccurs="0" name="Total_PD_Budget_Amount__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="Type" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="Used_Proposal_Opportunity_Flow__c" nillable="true" type="xsd:boolean"/>
+<element minOccurs="0" name="box__FolderID__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="npe01__Amount_Outstanding__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="npe01__Amount_Written_Off__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="npe01__Contact_Id_for_Role__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="npe01__Do_Not_Automatically_Create_Payment__c" nillable="true" type="xsd:boolean"/>
+<element minOccurs="0" name="npe01__Is_Opp_From_Individual__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="npe01__Member_Level__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="npe01__Membership_End_Date__c" nillable="true" type="xsd:date"/>
+<element minOccurs="0" name="npe01__Membership_Origin__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="npe01__Membership_Start_Date__c" nillable="true" type="xsd:date"/>
+<element minOccurs="0" name="npe01__Number_of_Payments__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="npe01__Payments_Made__c" nillable="true" type="xsd:double"/>
+<element minOccurs="0" name="npe03__Recurring_Donation__c" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="npo02__CombinedRollupFieldset__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="npo02__systemHouseholdContactRoleProcessor__c" nillable="true" type="xsd:string"/>
+<element minOccurs="0" name="npsp__Batch__c" nillable="true" type="ent:ID"/>
+<element minOccurs="0" name="npsp__Grant_Period_End_Date__c" nillable="true" type="xsd:date"/>
+<element minOccurs="0" name="npsp__Grant_Period_Start_Date__c" nillable="true" type="xsd:date"/>
+<element minOccurs="0" name="xxxPrimary_Investigator__c" nillable="true" type="ent:ID"/>
+</sequence>
+</extension>
+</complexContent>
+</complexType>
+</schema>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://soap.sforce.com/2005/09/outbound">
+<import namespace="urn:enterprise.soap.sforce.com"/><import namespace="urn:sobject.enterprise.soap.sforce.com"/>
+
+<element name="notifications">
+<complexType>
+<sequence>
+<element name="OrganizationId" type="ent:ID"/>
+<element name="ActionId" type="ent:ID"/>
+<element name="SessionId" nillable="true" type="xsd:string"/>
+<element name="EnterpriseUrl" type="xsd:string"/>
+<element name="PartnerUrl" type="xsd:string"/>
+<element maxOccurs="100" name="Notification" type="tns:OpportunityNotification"/>
+</sequence>
+</complexType>
+</element>
+<complexType name="OpportunityNotification">
+<sequence>
+<element name="Id" type="ent:ID"/>
+<element name="sObject" type="ens:Opportunity"/>
+</sequence>
+</complexType>
+<element name="notificationsResponse">
+<complexType>
+<sequence>
+<element name="Ack" type="xsd:boolean"/>
+</sequence>
+</complexType>
+</element>
+</schema>
+</types>
+<!--  Method Messages  -->
+<message name="notificationsRequest">
+<part element="tns:notifications" name="request"/>
+</message>
+<message name="notificationsResponse">
+<part element="tns:notificationsResponse" name="response"/>
+</message>
+<!--  PortType  -->
+<portType name="NotificationPort">
+<operation name="notifications">
+<documentation>Process a number of notifications.</documentation>
+<input message="tns:notificationsRequest"/>
+<output message="tns:notificationsResponse"/>
+</operation>
+</portType>
+<!--
+ Binding 
+         You need to write a service that implements this binding to receive the notifications
+     
+-->
+<binding name="NotificationBinding" type="tns:NotificationPort">
+<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<operation name="notifications">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+</binding>
+<!--  Service Endpoint  -->
+<service name="NotificationService">
+<documentation>Notification Service Implementation</documentation>
+<port binding="tns:NotificationBinding" name="Notification">
+<soap:address location="http://fake83673836.org"/>
+</port>
+</service>
+</definitions>
