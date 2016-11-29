@@ -14,3 +14,320 @@
  * Task [Remove routine dependency on antlr-3.3 jars] : Nothing to do
  * Task [RemoveProjectLibsFolder] : Nothing to do
  * Task [RemoveConfigMavenRepository] : Applied successfully
+ * Task [MergeTosMetadataMigrationTask] : Nothing to do
+ * Task [Rename tRunProcess] : Nothing to do
+ * Task [Rename tMysqlOutputBulkExec] : Nothing to do
+ * Task [Rename tCatcher] : Nothing to do
+ * Task [Upgrade tUniqRow (Perl)] : Nothing to do
+ * Task [Rename tDBxxTotOraclexx] : Nothing to do
+ * Task [Rename tDBxxTotMySQLxx ] : Nothing to do
+ * Task [Rename tDBxxTotPostgresqlxx] : Nothing to do
+ * Task [Rename tDBxxTotMssqlxx] : Nothing to do
+ * Task [Migrate tRowGenerator] : Nothing to do
+ * Task [Upgrade tWarn and tDie priority] : Nothing to do
+ * Task [Rename tFileZip and tFileUnzip components] : Nothing to do
+ * Task [Replace run before and after connection] : Nothing to do
+ * Task [Rename jobs with spaces] : Nothing to do
+ * Task [Add two attributes in DatabaseConnection] : Nothing to do
+ * Task [Rename tFTP to tFTPGet-Put-Rename-Delete] : Nothing to do
+ * Task [Rename tNormalizer to tNormalize] : Nothing to do
+ * Task [Rename tMetter to tFlowMeter] : Nothing to do
+ * Task [Rename tMetterCatcher to tFlowMeterCatcher] : Nothing to do
+ * Task [Add quote marks to separator after feature 1192 added to trunk.] : Nothing to do
+ * Task [Remove quotes in the tRunJobProperties of the component] : Nothing to do
+ * Task [Change the type of link for the tUniqRow] : Nothing to do
+ * Task [Add DdColumn name for all DB components] : Nothing to do
+ * Task [Convert the old Perl types to new types. ] : Nothing to do
+ * Task [Rename tXMLRPC to tXMLRPCInput] : Nothing to do
+ * Task [Rename tFileInputCSV to tFileInputDelimited] : Nothing to do
+ * Task [Rename tFileOutputCSV to tFileOutputDelimited] : Nothing to do
+ * Task [Upgrade mapping tAdvancedFileOutputXML] : Nothing to do
+ * Task [Set the Die On Error option default value as false] : Nothing to do
+ * Task [Rename the classes named __CLASS_NAME__] : Nothing to do
+ * Task [Add rename checkbox on tFileCopy for java component] : Nothing to do
+ * Task [Add ref array pointers and unreference arrays contained in Text fields] : Nothing to do
+ * Task [Add ref array pointers and unreference arrays contained in Table fields] : Nothing to do
+ * Task [Change Lookup Column Value] : Nothing to do
+ * Task [Add connector name in connections] : Nothing to do
+ * Task [Rename run if ok connection.] : Nothing to do
+ * Task [Rename run if error connection.] : Nothing to do
+ * Task [Rename then run connection.] : Nothing to do
+ * Task [tReplicate changes] : Nothing to do
+ * Task [Update the Attributes of tAdvancedFileOutputXML] : Nothing to do
+ * Task [Upgrade the Attributes of tFilterRow] : Nothing to do
+ * Task [Upper case the Db type of tCreateTable.] : Nothing to do
+ * Task [Rename tBuffer] : Nothing to do
+ * Task [Rename tMapPersistent] : Nothing to do
+ * Task [Replace old syntax of script code for context variables] : Nothing to do
+ * Task [Rename tFor to tLoop] : Nothing to do
+ * Task [Replace space character for repository items name] : Nothing to do
+ * Task [Replace the context variables name] : Nothing to do
+ * Task [Update the action on table drop box] : Nothing to do
+ * Task [Rename DB macro name DBTABLE to TABLE] : Nothing to do
+ * Task [Replace DELIMITER, GROUPS, MERGE with DENORMALIZE_COLUMNS] : Nothing to do
+ * Task [Change Default Value] : Nothing to do
+ * Task [Change check box default value to false] : Nothing to do
+ * Task [Change value] : Nothing to do
+ * Task [Generate documentation of job/joblet] : Nothing to do
+ * Task [Excel sheetname to sheetlist] : Nothing to do
+ * Task [Upgrade the parameters reference] : Nothing to do
+ * Task [Add the double quote enclosure to tMomInput and tMomOutput] : Nothing to do
+ * Task [Excel sheetname to sheetlist for java] : Nothing to do
+ * Task [HandleOracleSchemaMigrationTask] : Nothing to do
+ * Task [Change values of tLogRow checks] : Nothing to do
+ * Task [Add quotes to module list] : Nothing to do
+ * Task [RenametFTPToFTPGetMigrationTaskForPerl] : Nothing to do
+ * Task [RenametForForPerl] : Nothing to do
+ * Task [Rename DB product ID] : Nothing to do
+ * Task [Change sql pattern value] : Nothing to do
+ * Task [rename tFor_ variable to tLoop_ variable] : Nothing to do
+ * Task [rename tFileInputBasic into tFileIntoFullRow] : Nothing to do
+ * Task [Replace tRunJob label variable] : Nothing to do
+ * Task [Add family field in component setting migration task.] : Nothing to do
+ * Task [wrap tSSH parameter with double quot to support context variable] : Nothing to do
+ * Task [MigrationTaskForIssue4449] : Nothing to do
+ * Task [remove the quote char for tFileInputRegex on header/footer/limited parameters] : Nothing to do
+ * Task [add quotes to FileInputRegex header/footer/limit variables.] : Nothing to do
+ * Task [Move filemask to filemask list] : Nothing to do
+ * Task [add output file name on tJasperOutput] : Nothing to do
+ * Task [Use Oracle SID as DB type when use Oracle in Stats and Logs] : Nothing to do
+ * Task [Rename tParseXMLRow to tExtractXMLField] : Nothing to do
+ * Task [Rename tAggregateRowOpt to tAggregateRow] : Nothing to do
+ * Task [Rename tGroup into tMatchGroup] : Nothing to do
+ * Task [encrypt database connection password] : Nothing to do
+ * Task [set context mode for query] : Nothing to do
+ * Task [add double quote to DB SP name] : Nothing to do
+ * Task [Rename the XMLMultiSchema to MSXML] : Nothing to do
+ * Task [ChangeExtendInsertDefaultValueMigrationTask] : Nothing to do
+ * Task [Rename tFSUniq to tFSUnique] : Nothing to do
+ * Task [change the type of the return value Server_Alive_Result from String to Boolean] : Nothing to do
+ * Task [Rename tLaunchDQAnalyse to tLaunchDQReports] : Nothing to do
+ * Task [Rename the db version for access] : Nothing to do
+ * Task [Modify tAlfrescoOutput Server field value] : Nothing to do
+ * Task [Rename tPivotOutputDelimited to tPivotToColumnsDelimited] : Nothing to do
+ * Task [Rename tUnpivotRow to tPivotToRows] : Nothing to do
+ * Task [Rename tFSFilterRow to tFSFilterRows] : Nothing to do
+ * Task [Rename tWindowKey into tGenKey] : Nothing to do
+ * Task [Rename tMergeFields into tSurviveFields] : Nothing to do
+ * Task [Add a option and reverse its value on FS components] : Nothing to do
+ * Task [AddMomInputToComponentsListMigrationTask] : Nothing to do
+ * Task [Migrate JobSettings Parameter for Oracle DB type] : Nothing to do
+ * Task [Change Share Identity Setting] : Nothing to do
+ * Task [Migrate components to be visible in project settings] : Nothing to do
+ * Task [Convert the label for ConnectionItem.] : Nothing to do
+ * Task [Connection add unique name] : Nothing to do
+ * Task [MigrationTaskForIssue10862] : Nothing to do
+ * Task [Add a new checkbox "transmit original context" for tRunJob] : Nothing to do
+ * Task [Add a new checkbox to control attribute option] : Nothing to do
+ * Task [Support 3 versions tJavaFlex for bug11754] : Nothing to do
+ * Task [SalesforceTimeoutMigrationTask] : Nothing to do
+ * Task [MysqlOutputDBVersionForBug13250] : Nothing to do
+ * Task [ChangeJDBCDriverJarTypeForFeature12879] : Nothing to do
+ * Task [add blocking for tRecordMatching 13701] : Nothing to do
+ * Task [AddWebServiceOutputTableMigrationTask] : Nothing to do
+ * Task [AddRulesGlobalMapMigrationTask] : Nothing to do
+ * Task [RenameConnectionNameofSalesforceOutput] : Nothing to do
+ * Task [Add Connection Version for Jobsetting] : Nothing to do
+ * Task [rename customer column] : Nothing to do
+ * Task [MdmConceptMigrationTask] : Nothing to do
+ * Task [Set name for database connection] : Applied successfully
+ * Task [ChangeActiveMqJarName4MOMComponents] : Nothing to do
+ * Task [Set password encrypt in item file] : Nothing to do
+ * Task [TXMLMapChangeAllInOneValueMigrationTask] : Nothing to do
+ * Task [TMapSaveToEmfMigrationTask] : Nothing to do
+ * Task [ELTMapSaveToEmfMigrationTask] : Nothing to do
+ * Task [Fix a problem of project resources linked to items] : Nothing to do
+ * Task [Reset the field value of tInfiniteLoop] : Nothing to do
+ * Task [UpgrateDatabaseTypeForSybaseConnection] : Applied successfully
+ * Task [Rename ldap password parameter] : Nothing to do
+ * Task [Rename tELTXXX to tSQLTemplateXXX] : Nothing to do
+ * Task [Change the tFileOutputXML parameter value for the context,add quote to value] : Nothing to do
+ * Task [SalesforceMultiSchemaMigrationTask] : Nothing to do
+ * Task [AddScreenshotFileMigrationTask] : Nothing to do
+ * Task [Change AS400 DBVersion] : Nothing to do
+ * Task [Rename pig mode parameter] : Nothing to do
+ * Task [MigratetFileOutputDelimitedAndtFileInputDelimitedMigrationTask] : Nothing to do
+ * Task [Change Routines Parameter] : Nothing to do
+ * Task [NewJMSComponentMigrationTask] : Nothing to do
+ * Task [Modify tFileUnarchive ZIPFILE field value] : Nothing to do
+ * Task [Rename ContextGroup Name] : Nothing to do
+ * Task [AggregateStrategyMigrationTask] : Nothing to do
+ * Task [set default value of ESCAPE of tPigCode] : Nothing to do
+ * Task [ConsumerFaultResponseMigrationTask] : Applied successfully
+ * Task [RestRequestWrongCallMigrationTask] : Nothing to do
+ * Task [set default value from true to false of USE_BATCH_SIZE of tDBOutput in TDI-19299] : Nothing to do
+ * Task [Rename mssqlconnection schema parameter] : Nothing to do
+ * Task [UpdateCJMSProjectTask] : Nothing to do
+ * Task [ChangeValueTDIBug19870] : Nothing to do
+ * Task [change jobscript content value] : Nothing to do
+ * Task [Rename pig parameters] : Nothing to do
+ * Task [CheckAndUpdateStatus] : Nothing to do
+ * Task [AddCopyBookXc2jFileMigrationTask] : Nothing to do
+ * Task [Set the standalone value for the connection mode for old jobs.] : Nothing to do
+ * Task [Set true for trim option for the bug TDI-20394] : Nothing to do
+ * Task [SetFilterTiemFromTotoFromPOPComponentsMigrationTask] : Nothing to do
+ * Task [Add additionalField to the job model] : Nothing to do
+ * Task [UpdatecJMSMigrationTask] : Nothing to do
+ * Task [ChangeDefaultValueTDIBug21708] : Nothing to do
+ * Task [If the data container contains #STAGING, then we remove this tag and we set the closed list to STAGING] : Nothing to do
+ * Task [Replace host and port by namenode uri for hadoop components] : Nothing to do
+ * Task [ChangetMongoDBInputSortTextToTable] : Nothing to do
+ * Task [Add a distribution closed list for a better visibility in the hadoop components.] : Nothing to do
+ * Task [ChangeOptionDefaultValueFortNormalize] : Nothing to do
+ * Task [ChangeSpecifyKeysAndColumnsFortCassandraInput] : Nothing to do
+ * Task [cSetHeaderSupportMultiHeadersTask] : Nothing to do
+ * Task [cBeanCTalendJobMigrationTask] : Nothing to do
+ * Task [AddPropagateHeaderTocTalendJobMigrationTask] : Nothing to do
+ * Task [ChangeDefaultValueFortNormalizeCSVOption] : Nothing to do
+ * Task [DisconnectErroHandlerMigrationTask] : Nothing to do
+ * Task [ChangeDefaultClientMode4OldJobsBonitaInstantiateProcess] : Nothing to do
+ * Task [ChangeOracleJarName4OracleComponents] : Nothing to do
+ * Task [UpdateCXFDataFormatMigrationTask] : Nothing to do
+ * Task [ChangeOracleJarName4OracleComponentsByDB_VERSION] : Nothing to do
+ * Task [UpdateJobSettingsForOracle] : Nothing to do
+ * Task [ChangeOracleJarName4OracleDriver] : Nothing to do
+ * Task [ChangeMysqlJarReference4MysqlComponents] : Nothing to do
+ * Task [FinalVersionUpgradeMigrationTask] : Nothing to do
+ * Task [ChangeELTHiveOutputPartitionValue] : Nothing to do
+ * Task [ChangeVersionValue4HDFSComponents] : Nothing to do
+ * Task [AddSpringConfigurationMigrationTask] : Nothing to do
+ * Task [UpdateJobSettingsForMysqlMigrationTask] : Nothing to do
+ * Task [SettingValuesIntoHadoopPropertiesFortHiveConnection] : Nothing to do
+ * Task [RenametStandardizePhoneNumberColumnName] : Nothing to do
+ * Task [Set the Define jar option to true for old jobs.] : Nothing to do
+ * Task [ChangeHadoopVersionValue4TDQComponents] : Nothing to do
+ * Task [SetReadByJSONPathToFalse] : Nothing to do
+ * Task [AddCaseSensitiveToTCreateTableWithHSQLDB] : Nothing to do
+ * Task [UpdateJobSettingsForOracleMigrationTask2] : Nothing to do
+ * Task [encrypt passwords in new password fields of jobs] : Nothing to do
+ * Task [MoveStartsLinkFromPartitionerToDepartitioner] : Nothing to do
+ * Task [ChangeBagName4tPigCode] : Nothing to do
+ * Task [UniqueJoinKeyParameterTMatchGroup] : Nothing to do
+ * Task [ChangePigVersionOfPigLoadMigrationTask] : Nothing to do
+ * Task [ChangeHadoopVersionsOfReferenceComponentsMigrationTask] : Nothing to do
+ * Task [ChangeExtendedInsert2FALSE4tRedshiftOutput] : Nothing to do
+ * Task [ChangeFileInputJSONUrlUnCheckWhenXpathCheck] : Nothing to do
+ * Task [ChangeDeleteEmptyFileValueIfAppendTrueFeatureTDI26625] : Nothing to do
+ * Task [AddAPIVersion4tMSCRM] : Nothing to do
+ * Task [ExcleGenerationModeMigrationTask] : Nothing to do
+ * Task [ChangeDBName4Hive] : Nothing to do
+ * Task [Modify tFileUnarchive ZIPFILE field value(DI_DEMOS)] : Nothing to do
+ * Task [ConsumesTypeMigrationTask] : Nothing to do
+ * Task [FormContentTypeMigrationTask] : Nothing to do
+ * Task [CleanDBSchemaOntCreateTableMigrationTask] : Nothing to do
+ * Task [AddNewFieldsForTDQHadoopComponentsTask] : Nothing to do
+ * Task [RenameOracleRACToOracleCustomMigrationTask] : Nothing to do
+ * Task [Fix Wrong DB Types] : Nothing to do
+ * Task [ChangeSalesForceComponetsCustomerModuleName] : Nothing to do
+ * Task [ChangeUsername4Hive] : Nothing to do
+ * Task [ChangeJavaAPIAsDefault4SqoopMigrationTask] : Nothing to do
+ * Task [Remove Error Tag] : Nothing to do
+ * Task [RemoveUseHadoopPropertiesFortMRConfiguration] : Nothing to do
+ * Task [ChangeDefaultEncodingMigrationTask] : Nothing to do
+ * Task [cLogLoggingCategoryMigrationTask] : Nothing to do
+ * Task [AddDBConnectionVersionMigrationTask] : Nothing to do
+ * Task [SetTrim4tFileOutputXML] : Nothing to do
+ * Task [AddLoginTypeForSalesforceMigrationTask] : Nothing to do
+ * Task [ChangeDefaultValueFortCassandraOutputDefineCFStructure] : Nothing to do
+ * Task [AddHashKeyFromInputConnector4tHashOutput] : Nothing to do
+ * Task [SetContextDumpHidePasswordToFalse] : Nothing to do
+ * Task [UpdateJobSettingsForPostgresMigrationTask] : Nothing to do
+ * Task [ChangeRecordMatchingCustomFunctionValueTask] : Nothing to do
+ * Task [Encrypt passwords in new password fields of job settings implicit context load and stats logs] : Nothing to do
+ * Task [UpdateDbVersionForVerticaMigrationTask] : Nothing to do
+ * Task [Add the gid use string parameter if not have, value=false] : Nothing to do
+ * Task [Rename_cJMSConnectionFactory_To_cMQConnectionFactory_MigrationTask] : Nothing to do
+ * Task [ChangeUseBatchSizetoFalse4AS400] : Nothing to do
+ * Task [CorrectTeradataTPTExecInserterOperatorToLoad] : Nothing to do
+ * Task [ChangeRecalculateFormulaValueMigrationTask] : Nothing to do
+ * Task [AddCDCTypeForOracleCDCMigrationTask] : Nothing to do
+ * Task [DBMapSplitTableConstraintFiltersMigrationTask] : Nothing to do
+ * Task [ChangeParameterName4tMDMConnection] : Nothing to do
+ * Task [UpdateTMultiPatternCheckTask] : Nothing to do
+ * Task [Add a option and reverse its value on FS components] : Nothing to do
+ * Task [Update "compute group quality" to false for non-separate mode] : Nothing to do
+ * Task [CorrectDBVersionListForAS400] : Applied successfully
+ * Task [UnifyPasswordEncryption4LdapConnectionMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4SalesforceSchemaConnectionMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4FtpConnectionMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4ParametersInJobletMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4ParametersInRouteMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4ContextMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4DBConnectionMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4ParametersInJobMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4SapConnectionMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4MDMConnectionMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4WsdlConnectionMigrationTask] : Nothing to do
+ * Task [SetDieOnErrorFalse4tSCPDelete] : Nothing to do
+ * Task [SAPItemMigrationTask] : Applied successfully
+ * Task [SAPComponentSchemaIdMigrationTask] : Nothing to do
+ * Task [SetDefaultValue4tWriteJSONFieldGroupByOutput] : Nothing to do
+ * Task [RemoveUnuseQuoteOnTLoop] : Nothing to do
+ * Task [ChangeReadByParameter4tFileInputJSON] : Nothing to do
+ * Task [AddSpringConfigurationPropertyMigrationTask] : Nothing to do
+ * Task [Set tStoreResult associated tPigLoad] : Nothing to do
+ * Task [UpdatecCXFServiceNamePortNameDefault] : Nothing to do
+ * Task [ChangeMappingParameter4Redshift] : Nothing to do
+ * Task [ChangeParameter4tSAPIDocOutput] : Nothing to do
+ * Task [ChangeDefaultValue4tMarketoOutput] : Nothing to do
+ * Task [AddSchemaDefaultValue4tFileInputDelimited] : Nothing to do
+ * Task [CorrectBatchModeForDBComponents] : Nothing to do
+ * Task [CorrectBatchModeForTeradataOutput] : Nothing to do
+ * Task [CorrectBatchModeForJDBCOutput] : Nothing to do
+ * Task [SetUrltStewardshipXXXTDI32354] : Nothing to do
+ * Task [MdmAddVersionMigrationTask] : Nothing to do
+ * Task [SetDefaultVauleMDMServerVersionFeatureTDI31722] : Nothing to do
+ * Task [CorrectBatchSizeForDBComponents] : Nothing to do
+ * Task [CorrectBatchSizeForDBComponentsMore] : Nothing to do
+ * Task [ChangeDefaultValue4JSONComponents] : Nothing to do
+ * Task [MapNetsuiteOperatorValueTDI32245] : Nothing to do
+ * Task [ChangeMongoDBMinimalVersion] : Nothing to do
+ * Task [ChangeValue4BonitaComponents] : Nothing to do
+ * Task [ODBCMigrationTask] : Applied successfully
+ * Task [ActivateQueryLogging] : Nothing to do
+ * Task [MigrateEncoding4tSalesforceWave] : Nothing to do
+ * Task [ChangeDefaultValueForCassandraAPIVersion] : Nothing to do
+ * Task [AccessMigrationTask] : Applied successfully
+ * Task [AddPortForTCassandraConfigurationSpark] : Nothing to do
+ * Task [AddTableActionForUpdateCassandraDatastax] : Nothing to do
+ * Task [UnifyParameterOfDatastaxAndHectorForCassandra] : Nothing to do
+ * Task [MigrateDeprecatedHadoopDistribution1] : Nothing to do
+ * Task [ChangeDefaultSparkSerializer] : Nothing to do
+ * Task [SAPDatePatternItemMigrationTask] : Applied successfully
+ * Task [SAPDatePatternComponentMigrationTask] : Nothing to do
+ * Task [Set default readby mode] : Applied successfully
+ * Task [BuildRecycleBinIndexMigrationTask] : Applied successfully
+ * Task [ChangeDefaultValue4tLogRow] : Nothing to do
+ * Task [ChangeBatchParameter4SomeDBComponents] : Nothing to do
+ * Task [CheckIncludeSeparatorOnTFileOutputPositional] : Nothing to do
+ * Task [RemoveRouteComponentId] : Nothing to do
+ * Task [ChangeLocalModeForSparkConfiguration] : Nothing to do
+ * Task [ChangeOptionDefaultValueForFileArchive] : Nothing to do
+ * Task [DisableUseBatchWhenRejectLineExists] : Nothing to do
+ * Task [UpdateRouteResourceTypeMigrationTask] : Nothing to do
+ * Task [StripslachesOnQuotesForTCollectAndCheck] : Nothing to do
+ * Task [UpdateKakfaInputConsumerTimeoutAndAutoOffsetTask] : Nothing to do
+ * Task [ReviewPigLoadLayout] : Nothing to do
+ * Task [RenameSparkVersions] : Nothing to do
+ * Task [ChangeDBVersionValue4BonitaComponents] : Nothing to do
+ * Task [TickDieOnError4tFileUnarchive] : Nothing to do
+ * Task [RouteletProcessTypeMigrationTask] : Nothing to do
+ * Task [ChangeLogLevel4tRedshiftInput] : Nothing to do
+ * Task [AddContextCommentValueMigrationTask] : Nothing to do
+ * Task [ChangeDefaultValueForCassandra3Version] : Nothing to do
+ * Task [NewGenericWizardMigrationTask] : Nothing to do
+ * Task [SetDefaultValueForNewerEmailFirstOfTDI35976] : Nothing to do
+ * Task [ChangeDefaultValueForCassandraOutputBatch] : Nothing to do
+ * Task [NewSalesforceMigrationTask] : Nothing to do
+ * Task [Add XMI Id for context item] : Nothing to do
+ * Task [UpdateUrlForRedShiftMigrationTask] : Nothing to do
+ * Task [SubstituteRemovedMDMOperatorMigrationTask] : Nothing to do
+ * Task [RenameDriverJarPathForDBConnectionMigrationTask] : Nothing to do
+ * Task [RemoveDuplicatedContextGroupMigrationTask] : Nothing to do
+ * Task [UpdateJobletContextInJobMigrationTask] : Nothing to do
+ * Task [ReplaceVarcharArrayWithVarcharIssueTDI35719] : Nothing to do
+ * Task [Salesforce620Migration] : Nothing to do
+ * Task [Salesforce620WizardMigration] : Nothing to do
+ * Task [AddDefaultVersionValueForElasticsearchLookupInput] : Nothing to do
+ * Task [AutoUpdateRelationsMigrationTask] : Nothing to do
+ ---=== End of migration ===---
