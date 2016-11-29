@@ -5,5 +5,656 @@ Namespace Containers,com.oaklandsw.base,order,4
 Reports,com.oaklandsw.base,order,7
 Sample Data,com.oaklandsw.base,order,6
 Structures,com.oaklandsw.base,order,0
+Structures/AR303000/Attributes/xsi/nil.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Attributes/xsi/noNamespaceSchemaLocation.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Attributes/xsi/schemaLocation.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Attributes/xsi/type.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/Clear.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/ClearResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/Export.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ArrayOfFilter.xml,/tns:Export/tns:filters
+Structures/AR303000/Elements/tns/Export.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/Export.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/ArrayOfCommand.xml,/tns:Export/tns:commands
+Structures/AR303000/Elements/tns/ExportResponse.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ArrayOfArrayOfString.xml,/tns:ExportResponse/tns:ExportResult
+Structures/AR303000/Elements/tns/ExportResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/GetProcessStatus.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/GetProcessStatusResponse.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ProcessResult.xml,/tns:GetProcessStatusResponse/tns:GetProcessStatusResult
+Structures/AR303000/Elements/tns/GetProcessStatusResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/GetScenario.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/GetScenarioResponse.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ArrayOfCommand.xml,/tns:GetScenarioResponse/tns:GetScenarioResult
+Structures/AR303000/Elements/tns/GetScenarioResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/GetSchema.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/GetSchemaResponse.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Content.xml,/tns:GetSchemaResponse/tns:GetSchemaResult
+Structures/AR303000/Elements/tns/GetSchemaResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/Import.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ArrayOfCommand.xml,/tns:Import/tns:commands
+Structures/AR303000/Elements/tns/Import.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/Import.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/ArrayOfArrayOfString.xml,/tns:Import/tns:data
+Structures/AR303000/Elements/tns/Import.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/ArrayOfFilter.xml,/tns:Import/tns:filters
+Structures/AR303000/Elements/tns/ImportResponse.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ArrayOfImportResult.xml,/tns:ImportResponse/tns:ImportResult
+Structures/AR303000/Elements/tns/ImportResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/Login.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/LoginResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/LoginResponse.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/LoginResult.xml,/tns:LoginResponse/tns:LoginResult
+Structures/AR303000/Elements/tns/Logout.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/LogoutResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/SetBusinessDate.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/SetBusinessDateResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/SetLocaleName.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/SetLocaleNameResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/SetSchema.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Content.xml,/tns:SetSchema/tns:schema
+Structures/AR303000/Elements/tns/SetSchema.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/SetSchemaMode.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/SetSchemaMode.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/SchemaMode.xml,/tns:SetSchemaMode/tns:mode
+Structures/AR303000/Elements/tns/SetSchemaModeResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/SetSchemaResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/Submit.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Elements/tns/Submit.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/ArrayOfCommand.xml,/tns:Submit/tns:commands
+Structures/AR303000/Elements/tns/SubmitResponse.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ArrayOfContent.xml,/tns:SubmitResponse/tns:SubmitResult
+Structures/AR303000/Elements/tns/SubmitResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Action.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Command.xml,/tns:Action
+Structures/AR303000/Types/tns/Action.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ARRegister
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewSalesOrderAction
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.10,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewLocation
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.11,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ValidateAddressesAction
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.12,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:CustomerStatement
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.13,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewSalesOrder
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.14,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:MNewActivity
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.15,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewVendor
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.16,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:CustomerDetailsReport
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.17,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:StatementForCustomer
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.18,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ValidateAddresses
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.19,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:Save
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewEvent
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.20,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:Delete
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.21,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:CNewActivity
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.22,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ARAgedPastDue
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.23,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:WriteOffBalanceAction
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.24,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:CustomerDetails
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.25,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:Next
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.26,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:SalesPrice
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.27,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:Insert
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.28,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:SalesPriceInquiry
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.29,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:RegenerateLastStatementAction
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ARAgedOutstanding
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.30,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:CustomerStatementReport
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.31,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewPaymentAction
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.32,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:CustomerHistoryReport
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.33,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:First
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.34,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewMainOnMap
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.35,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ARBalanceByCustomerReport
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.36,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewPaymentMethod
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.37,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:OpenActivityOwner
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.38,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewRestrictionGroups
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.39,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ExtendToVendor
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewRestrictionGroupsAction
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.40,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ChangeID
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.41,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ExtendToVendorAction
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.42,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewDefLocationOnMap
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.43,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:RegenerateLastStatement
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.44,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:SaveTemplateEdit
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.45,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:CustomerDocuments
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.46,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewTask
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.47,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NNewActivity
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.48,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ARRegisterReport
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.49,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:SetDefault
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewActivity
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.50,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewContact
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.51,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ENewActivity
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.52,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewInvoiceMemo
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.53,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ARAgedPastDueReport
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.54,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ARBalanceByCustomer
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.55,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewContact
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.56,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewBillAddressOnMap
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.57,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:StatementForCustomerInquiry
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.58,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.59,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewBusnessAccountAction
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:Last
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.60,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewAllActivities
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.61,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:AddPaymentMethod
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.62,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewInvoiceMemoAction
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.63,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:PasteDocumentEdit
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.64,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ARAgedOutstandingReport
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.65,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:Prev
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.66,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:PNewActivity
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.67,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewPayment
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.68,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:CustomerHistory
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.69,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:CustomerDocumentsInquiry
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:CopyDocumentEdit
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.70,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:WNewActivity
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.71,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:WriteOffBalance
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.72,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewBusnessAccount
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.73,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewMailActivity
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.74,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:ViewVendorAction
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:Cancel
+Structures/AR303000/Types/tns/Actions.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/Action.xml,/tns:Actions/tns:NewLocation
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ActivitiesServiceCommands.xml,/tns:Activities/tns:ServiceCommands
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:CreatedByCreatedByIDCreatorUsername
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.10,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:ProjectTask
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.11,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:Project
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.12,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:Type
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.13,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:MailStatus
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.14,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:ReminderIcon
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.15,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:PriorityIcon
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.16,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:IsCompleteIcon
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.17,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:TimeSpent
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.18,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:CreatedAt
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.19,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:NoteText
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.20,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:Released
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:Owner
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:Summary
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:StartDate
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:Workgroup
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:ClassIcon
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:Status
+Structures/AR303000/Types/tns/Activities.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/Field.xml,/tns:Activities/tns:RelatedEntityDescription
+Structures/AR303000/Types/tns/ActivitiesServiceCommands.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ActivitiesServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/RowNumber.xml,/tns:ActivitiesServiceCommands/tns:RowNumber
+Structures/AR303000/Types/tns/ActivitiesServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Answer.xml,/tns:ActivitiesServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/ActivitiesServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:ActivitiesServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/ActivitiesServiceCommands.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/NewRow.xml,/tns:ActivitiesServiceCommands/tns:NewRow
+Structures/AR303000/Types/tns/ActivitiesServiceCommands.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Attachment.xml,/tns:ActivitiesServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/Answer.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Command.xml,/tns:Answer
+Structures/AR303000/Types/tns/Answer.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ArrayOfArrayOfString.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ArrayOfString.xml,/tns:ArrayOfArrayOfString/tns:ArrayOfString
+Structures/AR303000/Types/tns/ArrayOfArrayOfString.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ArrayOfCommand.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Command.xml,/tns:ArrayOfCommand/tns:Command
+Structures/AR303000/Types/tns/ArrayOfCommand.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ArrayOfContainer.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Container.xml,/tns:ArrayOfContainer/tns:Container
+Structures/AR303000/Types/tns/ArrayOfContainer.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ArrayOfContent.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Content.xml,/tns:ArrayOfContent/tns:Content
+Structures/AR303000/Types/tns/ArrayOfContent.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ArrayOfField.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:ArrayOfField/tns:Field
+Structures/AR303000/Types/tns/ArrayOfField.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ArrayOfFilter.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ArrayOfFilter.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Filter.xml,/tns:ArrayOfFilter/tns:Filter
+Structures/AR303000/Types/tns/ArrayOfImportResult.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ImportResult.xml,/tns:ArrayOfImportResult/tns:ImportResult
+Structures/AR303000/Types/tns/ArrayOfImportResult.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ArrayOfString.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ArrayOfValue.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ArrayOfValue.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Value.xml,/tns:ArrayOfValue/tns:Value
+Structures/AR303000/Types/tns/Attachment.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Attachment.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:Attachment
+Structures/AR303000/Types/tns/Attributes.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Attributes.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:Attributes/tns:Attribute
+Structures/AR303000/Types/tns/Attributes.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/AttributesServiceCommands.xml,/tns:Attributes/tns:ServiceCommands
+Structures/AR303000/Types/tns/Attributes.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:Attributes/tns:Value
+Structures/AR303000/Types/tns/Attributes.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:Attributes/tns:Required
+Structures/AR303000/Types/tns/AttributesServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/NewRow.xml,/tns:AttributesServiceCommands/tns:NewRow
+Structures/AR303000/Types/tns/AttributesServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/RowNumber.xml,/tns:AttributesServiceCommands/tns:RowNumber
+Structures/AR303000/Types/tns/AttributesServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:AttributesServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/AttributesServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Key.xml,/tns:AttributesServiceCommands/tns:KeyAttribute
+Structures/AR303000/Types/tns/AttributesServiceCommands.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Answer.xml,/tns:AttributesServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/AttributesServiceCommands.xml,com.oaklandsw.base,references.5,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToAddress/tns:PostalCode
+Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToAddress/tns:AddressLine1
+Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToAddress/tns:City
+Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/BillingSettingsBillToAddressServiceCommands.xml,/tns:BillingSettingsBillToAddress/tns:ServiceCommands
+Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToAddress/tns:State
+Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml,com.oaklandsw.base,references.5,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToAddress/tns:AddressLine2
+Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToAddress/tns:IsValidated
+Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToAddress/tns:CountryID
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMain.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMain.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMainServiceCommands.xml,/tns:BillingSettingsBillToAddressSameAsMain/tns:ServiceCommands
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMain.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToAddressSameAsMain/tns:SameAsMain
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMainServiceCommands.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMainServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:BillingSettingsBillToAddressSameAsMainServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMainServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Attachment.xml,/tns:BillingSettingsBillToAddressSameAsMainServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMainServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Answer.xml,/tns:BillingSettingsBillToAddressSameAsMainServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Attachment.xml,/tns:BillingSettingsBillToAddressServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressServiceCommands.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Answer.xml,/tns:BillingSettingsBillToAddressServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/BillingSettingsBillToAddressServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:BillingSettingsBillToAddressServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToContact/tns:Phone1
+Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToContact/tns:Phone2
+Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToContact/tns:Fax
+Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToContact/tns:EMail
+Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml,com.oaklandsw.base,references.4,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToContact/tns:FullName
+Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToContact/tns:WebSite
+Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/BillingSettingsBillToContactServiceCommands.xml,/tns:BillingSettingsBillToContact/tns:ServiceCommands
+Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToContact/tns:Salutation
+Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMain.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMain.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsBillToContactSameAsMain/tns:SameAsMain
+Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMain.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMainServiceCommands.xml,/tns:BillingSettingsBillToContactSameAsMain/tns:ServiceCommands
+Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMainServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Attachment.xml,/tns:BillingSettingsBillToContactSameAsMainServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMainServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Answer.xml,/tns:BillingSettingsBillToContactSameAsMainServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMainServiceCommands.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMainServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:BillingSettingsBillToContactSameAsMainServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/BillingSettingsBillToContactServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Attachment.xml,/tns:BillingSettingsBillToContactServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/BillingSettingsBillToContactServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:BillingSettingsBillToContactServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/BillingSettingsBillToContactServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Answer.xml,/tns:BillingSettingsBillToContactServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/BillingSettingsBillToContactServiceCommands.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethod.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodServiceCommands.xml,/tns:BillingSettingsDefaultPaymentMethod/tns:ServiceCommands
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethod.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsDefaultPaymentMethod/tns:CashAccountID
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethod.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsDefaultPaymentMethod/tns:CCProcessingCenterID
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethod.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsDefaultPaymentMethod/tns:Descr
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethod.xml,com.oaklandsw.base,references.4,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethod.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsDefaultPaymentMethod/tns:CustomerCCPID
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethod.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethodServiceCommands.xml,/tns:BillingSettingsDefaultPaymentMethodDefaultPaymentMethod/tns:ServiceCommands
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethod.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsDefaultPaymentMethodDefaultPaymentMethod/tns:DefaultPaymentMethod
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethod.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethodServiceCommands.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethodServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Attachment.xml,/tns:BillingSettingsDefaultPaymentMethodDefaultPaymentMethodServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethodServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Answer.xml,/tns:BillingSettingsDefaultPaymentMethodDefaultPaymentMethodServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethodServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:BillingSettingsDefaultPaymentMethodDefaultPaymentMethodServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetails.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetails.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsDefaultPaymentMethodPaymentMethodDetails/tns:Value
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetails.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsDefaultPaymentMethodPaymentMethodDetails/tns:DescriptionDetailIDPaymentMethodDetailDescr
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetails.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetailsServiceCommands.xml,/tns:BillingSettingsDefaultPaymentMethodPaymentMethodDetails/tns:ServiceCommands
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetailsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:BillingSettingsDefaultPaymentMethodPaymentMethodDetailsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetailsServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Answer.xml,/tns:BillingSettingsDefaultPaymentMethodPaymentMethodDetailsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetailsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/NewRow.xml,/tns:BillingSettingsDefaultPaymentMethodPaymentMethodDetailsServiceCommands/tns:NewRow
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetailsServiceCommands.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetailsServiceCommands.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/RowNumber.xml,/tns:BillingSettingsDefaultPaymentMethodPaymentMethodDetailsServiceCommands/tns:RowNumber
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Answer.xml,/tns:BillingSettingsDefaultPaymentMethodServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Attachment.xml,/tns:BillingSettingsDefaultPaymentMethodServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:BillingSettingsDefaultPaymentMethodServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodServiceCommands.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsParentInfo.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/BillingSettingsParentInfoServiceCommands.xml,/tns:BillingSettingsParentInfo/tns:ServiceCommands
+Structures/AR303000/Types/tns/BillingSettingsParentInfo.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsParentInfo/tns:ConsolidateStatements
+Structures/AR303000/Types/tns/BillingSettingsParentInfo.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsParentInfo.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsParentInfo/tns:ParentAccount
+Structures/AR303000/Types/tns/BillingSettingsParentInfo.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsParentInfo/tns:ConsolidateBalance
+Structures/AR303000/Types/tns/BillingSettingsParentInfoServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:BillingSettingsParentInfoServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/BillingSettingsParentInfoServiceCommands.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsParentInfoServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Answer.xml,/tns:BillingSettingsParentInfoServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/BillingSettingsParentInfoServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Attachment.xml,/tns:BillingSettingsParentInfoServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsPrintAndEmailSettings/tns:StatementType
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsPrintAndEmailSettings/tns:SendInvoicesByEmail
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsPrintAndEmailSettings/tns:PrintInvoices
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsPrintAndEmailSettings/tns:PrintStatements
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettingsServiceCommands.xml,/tns:BillingSettingsPrintAndEmailSettings/tns:ServiceCommands
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsPrintAndEmailSettings/tns:MultiCurrencyStatements
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,com.oaklandsw.base,references.6,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsPrintAndEmailSettings/tns:SendDunningLettersByEmail
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsPrintAndEmailSettings/tns:SendStatementsByEmail
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/Field.xml,/tns:BillingSettingsPrintAndEmailSettings/tns:PrintDunningLetters
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettingsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Attachment.xml,/tns:BillingSettingsPrintAndEmailSettingsServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettingsServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Answer.xml,/tns:BillingSettingsPrintAndEmailSettingsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettingsServiceCommands.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettingsServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:BillingSettingsPrintAndEmailSettingsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:ChildAccounts/tns:Balance
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:ChildAccounts/tns:PrepaymentsBalance
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.10,Structures/AR303000/Types/tns/Field.xml,/tns:ChildAccounts/tns:UnreleasedBalance
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:ChildAccounts/tns:Customer
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:ChildAccounts/tns:ConsolidateStatements
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/ChildAccountsServiceCommands.xml,/tns:ChildAccounts/tns:ServiceCommands
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:ChildAccounts/tns:OpenOrdersBalance
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:ChildAccounts/tns:CustomerName
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:ChildAccounts/tns:ConsolidateBalance
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:ChildAccounts/tns:StatementCycle
+Structures/AR303000/Types/tns/ChildAccounts.xml,com.oaklandsw.base,references.9,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ChildAccountsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:ChildAccountsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/ChildAccountsServiceCommands.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ChildAccountsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Answer.xml,/tns:ChildAccountsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/ChildAccountsServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/NewRow.xml,/tns:ChildAccountsServiceCommands/tns:NewRow
+Structures/AR303000/Types/tns/ChildAccountsServiceCommands.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Key.xml,/tns:ChildAccountsServiceCommands/tns:KeyCustomer
+Structures/AR303000/Types/tns/ChildAccountsServiceCommands.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/RowNumber.xml,/tns:ChildAccountsServiceCommands/tns:RowNumber
+Structures/AR303000/Types/tns/Command.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Command.xml,/tns:Command/tns:LinkedCommand
+Structures/AR303000/Types/tns/Command.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Command.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/ElementDescriptor.xml,/tns:Command/tns:Descriptor
+Structures/AR303000/Types/tns/Contacts.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:Contacts/tns:Phone1
+Structures/AR303000/Types/tns/Contacts.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:Contacts/tns:Active
+Structures/AR303000/Types/tns/Contacts.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/ContactsServiceCommands.xml,/tns:Contacts/tns:ServiceCommands
+Structures/AR303000/Types/tns/Contacts.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Contacts.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:Contacts/tns:City
+Structures/AR303000/Types/tns/Contacts.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:Contacts/tns:Email
+Structures/AR303000/Types/tns/Contacts.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:Contacts/tns:Name
+Structures/AR303000/Types/tns/Contacts.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:Contacts/tns:NoteText
+Structures/AR303000/Types/tns/Contacts.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:Contacts/tns:Position
+Structures/AR303000/Types/tns/ContactsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/RowNumber.xml,/tns:ContactsServiceCommands/tns:RowNumber
+Structures/AR303000/Types/tns/ContactsServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Answer.xml,/tns:ContactsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/ContactsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:ContactsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/ContactsServiceCommands.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ContactsServiceCommands.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Attachment.xml,/tns:ContactsServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/ContactsServiceCommands.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/NewRow.xml,/tns:ContactsServiceCommands/tns:NewRow
+Structures/AR303000/Types/tns/Container.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/ArrayOfContainer.xml,/tns:Container/tns:Children
+Structures/AR303000/Types/tns/Container.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/ArrayOfCommand.xml,/tns:Container/tns:ServiceCommands
+Structures/AR303000/Types/tns/Container.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Container.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/ArrayOfField.xml,/tns:Container/tns:Fields
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethod.xml,/tns:Content/tns:BillingSettingsDefaultPaymentMethodDefaultPaymentMethod
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml,/tns:Content/tns:GeneralInfoMainAddress
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.10,Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml,/tns:Content/tns:BillingSettingsBillToContact
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.11,Structures/AR303000/Types/tns/CustomerSummary.xml,/tns:Content/tns:CustomerSummary
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.12,Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,/tns:Content/tns:DeliverySettingsShippingInstructions
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.13,Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml,/tns:Content/tns:DeliverySettingsDefaultLocationSettings
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.14,Structures/AR303000/Types/tns/Actions.xml,/tns:Content/tns:Actions
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.15,Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetails.xml,/tns:Content/tns:BillingSettingsDefaultPaymentMethodPaymentMethodDetails
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.16,Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMain.xml,/tns:Content/tns:DeliverySettingsShippingContactSameAsMain
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.17,Structures/AR303000/Types/tns/GeneralInfoMainContact.xml,/tns:Content/tns:GeneralInfoMainContact
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.18,Structures/AR303000/Types/tns/GLAccounts.xml,/tns:Content/tns:GLAccounts
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.19,Structures/AR303000/Types/tns/BillingSettingsParentInfo.xml,/tns:Content/tns:BillingSettingsParentInfo
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Attributes.xml,/tns:Content/tns:Attributes
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.20,Structures/AR303000/Types/tns/Locations.xml,/tns:Content/tns:Locations
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.21,Structures/AR303000/Types/tns/Contacts.xml,/tns:Content/tns:Contacts
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.22,Structures/AR303000/Types/tns/Activities.xml,/tns:Content/tns:Activities
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.23,Structures/AR303000/Types/tns/Salespersons.xml,/tns:Content/tns:Salespersons
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.24,Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,/tns:Content/tns:GeneralInfoFinancialSettings
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.25,Structures/AR303000/Types/tns/PaymentMethods.xml,/tns:Content/tns:PaymentMethods
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.26,Structures/AR303000/Types/tns/GeneralInfo.xml,/tns:Content/tns:GeneralInfo
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.27,Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml,/tns:Content/tns:GLAccountsCashDiscountAccount
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.28,Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMain.xml,/tns:Content/tns:BillingSettingsBillToAddressSameAsMain
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.29,Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRules.xml,/tns:Content/tns:GeneralInfoCreditVerificationRules
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/SpecifyNewID.xml,/tns:Content/tns:SpecifyNewID
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.30,Structures/AR303000/Types/tns/MailingSettingsRecipients.xml,/tns:Content/tns:MailingSettingsRecipients
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.31,Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml,/tns:Content/tns:BillingSettingsBillToAddress
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.32,Structures/AR303000/Types/tns/CustomerSummaryBalance.xml,/tns:Content/tns:CustomerSummaryBalance
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.33,Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethod.xml,/tns:Content/tns:BillingSettingsDefaultPaymentMethod
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.34,Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,/tns:Content/tns:DeliverySettingsShippingAddress
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.35,Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMain.xml,/tns:Content/tns:BillingSettingsBillToContactSameAsMain
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml,/tns:Content/tns:DeliverySettingsShippingContact
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.5,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerification.xml,/tns:Content/tns:GeneralInfoCreditVerificationRulesCreditVerification
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/MailingSettingsMailings.xml,/tns:Content/tns:MailingSettingsMailings
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/ChildAccounts.xml,/tns:Content/tns:ChildAccounts
+Structures/AR303000/Types/tns/Content.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml,/tns:Content/tns:BillingSettingsPrintAndEmailSettings
+Structures/AR303000/Types/tns/CustomerSummary.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummary/tns:NoteText
+Structures/AR303000/Types/tns/CustomerSummary.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummary/tns:Status
+Structures/AR303000/Types/tns/CustomerSummary.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummary/tns:CustomerName
+Structures/AR303000/Types/tns/CustomerSummary.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/CustomerSummary.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummary/tns:CustomerID
+Structures/AR303000/Types/tns/CustomerSummary.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,/tns:CustomerSummary/tns:ServiceCommands
+Structures/AR303000/Types/tns/CustomerSummaryBalance.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummaryBalance/tns:Balance
+Structures/AR303000/Types/tns/CustomerSummaryBalance.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/CustomerSummaryBalanceServiceCommands.xml,/tns:CustomerSummaryBalance/tns:ServiceCommands
+Structures/AR303000/Types/tns/CustomerSummaryBalance.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummaryBalance/tns:PrepaymentsBalance
+Structures/AR303000/Types/tns/CustomerSummaryBalance.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/CustomerSummaryBalance.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummaryBalance/tns:ConsolidatedBalance
+Structures/AR303000/Types/tns/CustomerSummaryBalanceServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Answer.xml,/tns:CustomerSummaryBalanceServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/CustomerSummaryBalanceServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:CustomerSummaryBalanceServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/CustomerSummaryBalanceServiceCommands.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/CustomerSummaryBalanceServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Attachment.xml,/tns:CustomerSummaryBalanceServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummaryServiceCommands/tns:FilterCountry
+Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Key.xml,/tns:CustomerSummaryServiceCommands/tns:KeyCustomerID
+Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummaryServiceCommands/tns:FilterPhone1
+Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummaryServiceCommands/tns:FilterCity
+Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/EveryValue.xml,/tns:CustomerSummaryServiceCommands/tns:EveryCustomerID
+Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:CustomerSummaryServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Attachment.xml,/tns:CustomerSummaryServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Answer.xml,/tns:CustomerSummaryServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/CustomerSummaryServiceCommands.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/Field.xml,/tns:CustomerSummaryServiceCommands/tns:FilterEmail
+Structures/AR303000/Types/tns/DeleteRow.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeleteRow.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Command.xml,/tns:DeleteRow
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsDefaultLocationSettings/tns:LocationName
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsDefaultLocationSettings/tns:TaxZone
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsDefaultLocationSettings/tns:ShippingBranch
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsDefaultLocationSettings/tns:EntityUsageType
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsDefaultLocationSettings/tns:PriceClassID
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettingsServiceCommands.xml,/tns:DeliverySettingsDefaultLocationSettings/tns:ServiceCommands
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsDefaultLocationSettings/tns:TaxRegistrationID
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettingsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Answer.xml,/tns:DeliverySettingsDefaultLocationSettingsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettingsServiceCommands.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettingsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Attachment.xml,/tns:DeliverySettingsDefaultLocationSettingsServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettingsServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:DeliverySettingsDefaultLocationSettingsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingAddress/tns:AddressLine2
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingAddress/tns:AddressLine1
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingAddress/tns:Validated
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeliverySettingsShippingAddressServiceCommands.xml,/tns:DeliverySettingsShippingAddress/tns:ServiceCommands
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingAddress/tns:City
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingAddress/tns:State
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,com.oaklandsw.base,references.6,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingAddress/tns:Country
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingAddress/tns:PostalCode
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingAddress/tns:SameAsMain
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddressServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Answer.xml,/tns:DeliverySettingsShippingAddressServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddressServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Attachment.xml,/tns:DeliverySettingsShippingAddressServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddressServiceCommands.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeliverySettingsShippingAddressServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:DeliverySettingsShippingAddressServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingContact/tns:Attention
+Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingContact/tns:Email
+Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingContact/tns:Fax
+Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/DeliverySettingsShippingContactServiceCommands.xml,/tns:DeliverySettingsShippingContact/tns:ServiceCommands
+Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingContact/tns:Web
+Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingContact/tns:Phone1
+Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingContact/tns:CompanyName
+Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingContact/tns:Phone2
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMain.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMainServiceCommands.xml,/tns:DeliverySettingsShippingContactSameAsMain/tns:ServiceCommands
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMain.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingContactSameAsMain/tns:SameAsMain
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMain.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMainServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Attachment.xml,/tns:DeliverySettingsShippingContactSameAsMainServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMainServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:DeliverySettingsShippingContactSameAsMainServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMainServiceCommands.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMainServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Answer.xml,/tns:DeliverySettingsShippingContactSameAsMainServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactServiceCommands.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Answer.xml,/tns:DeliverySettingsShippingContactServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Attachment.xml,/tns:DeliverySettingsShippingContactServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/DeliverySettingsShippingContactServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:DeliverySettingsShippingContactServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:Warehouse
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:OrderPriority
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.10,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:Insurance
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.11,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:ShippingZoneID
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.12,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:ResidentialDelivery
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:ShippingTerms
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:LeadTimeDays
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:FOBPoint
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:SaturdayDelivery
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:ShipVia
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/DeliverySettingsShippingInstructionsServiceCommands.xml,/tns:DeliverySettingsShippingInstructions/tns:ServiceCommands
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.8,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/Field.xml,/tns:DeliverySettingsShippingInstructions/tns:ShippingRule
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructionsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Answer.xml,/tns:DeliverySettingsShippingInstructionsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructionsServiceCommands.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructionsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Attachment.xml,/tns:DeliverySettingsShippingInstructionsServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/DeliverySettingsShippingInstructionsServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:DeliverySettingsShippingInstructionsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/ElementDescriptor.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Container.xml,/tns:ElementDescriptor/tns:Container
+Structures/AR303000/Types/tns/ElementDescriptor.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ElementDescriptor.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/ElementTypes.xml,/tns:ElementDescriptor/tns:ElementType
+Structures/AR303000/Types/tns/ElementDescriptor.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/PXSpecialButtonType.xml,/tns:ElementDescriptor/tns:ButtonType
+Structures/AR303000/Types/tns/ElementDescriptor.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/ArrayOfString.xml,/tns:ElementDescriptor/tns:AllowedValues
+Structures/AR303000/Types/tns/ElementTypes.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ErrorCode.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/EveryValue.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/EveryValue.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Command.xml,/tns:EveryValue
+Structures/AR303000/Types/tns/Field.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Command.xml,/tns:Field
+Structures/AR303000/Types/tns/Field.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Filter.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:Filter/tns:Field
+Structures/AR303000/Types/tns/Filter.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/FilterCondition.xml,/tns:Filter/tns:Condition
+Structures/AR303000/Types/tns/Filter.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Filter.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/FilterOperator.xml,/tns:Filter/tns:Operator
+Structures/AR303000/Types/tns/FilterCondition.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/FilterOperator.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GLAccounts.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccounts/tns:FreightSub
+Structures/AR303000/Types/tns/GLAccounts.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GLAccounts.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccounts/tns:SalesSub
+Structures/AR303000/Types/tns/GLAccounts.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccounts/tns:FreightAccount
+Structures/AR303000/Types/tns/GLAccounts.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccounts/tns:ARAccount
+Structures/AR303000/Types/tns/GLAccounts.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccounts/tns:SalesAccount
+Structures/AR303000/Types/tns/GLAccounts.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccounts/tns:DiscountAccount
+Structures/AR303000/Types/tns/GLAccounts.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/GLAccountsServiceCommands.xml,/tns:GLAccounts/tns:ServiceCommands
+Structures/AR303000/Types/tns/GLAccounts.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccounts/tns:DiscountSub
+Structures/AR303000/Types/tns/GLAccounts.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccounts/tns:ARSub
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/GLAccountsCashDiscountAccountServiceCommands.xml,/tns:GLAccountsCashDiscountAccount/tns:ServiceCommands
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccountsCashDiscountAccount/tns:PrepaymentAccount
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccountsCashDiscountAccount/tns:COGSSub
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccountsCashDiscountAccount/tns:CashDiscountSub
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccountsCashDiscountAccount/tns:PrepaymentSub
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccountsCashDiscountAccount/tns:CashDiscountAccount
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:GLAccountsCashDiscountAccount/tns:COGSAccount
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccountServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Answer.xml,/tns:GLAccountsCashDiscountAccountServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccountServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Attachment.xml,/tns:GLAccountsCashDiscountAccountServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccountServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:GLAccountsCashDiscountAccountServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/GLAccountsCashDiscountAccountServiceCommands.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GLAccountsServiceCommands.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GLAccountsServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:GLAccountsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/GLAccountsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Answer.xml,/tns:GLAccountsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/GLAccountsServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Attachment.xml,/tns:GLAccountsServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/GeneralInfo.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfo/tns:AccountRef
+Structures/AR303000/Types/tns/GeneralInfo.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/GeneralInfoServiceCommands.xml,/tns:GeneralInfo/tns:ServiceCommands
+Structures/AR303000/Types/tns/GeneralInfo.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRules.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoCreditVerificationRules/tns:OpenOrdersBalance
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRules.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoCreditVerificationRules/tns:FirstDueDate
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRules.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoCreditVerificationRules/tns:RemainingCreditLimit
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRules.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRules.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoCreditVerificationRules/tns:UnreleasedBalance
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRules.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesServiceCommands.xml,/tns:GeneralInfoCreditVerificationRules/tns:ServiceCommands
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerification.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoCreditVerificationRulesCreditVerification/tns:CreditVerification
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerification.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerificationServiceCommands.xml,/tns:GeneralInfoCreditVerificationRulesCreditVerification/tns:ServiceCommands
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerification.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerification.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoCreditVerificationRulesCreditVerification/tns:CreditLimit
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerification.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoCreditVerificationRulesCreditVerification/tns:CreditDaysPastDue
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerificationServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Answer.xml,/tns:GeneralInfoCreditVerificationRulesCreditVerificationServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerificationServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Attachment.xml,/tns:GeneralInfoCreditVerificationRulesCreditVerificationServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerificationServiceCommands.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerificationServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:GeneralInfoCreditVerificationRulesCreditVerificationServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Attachment.xml,/tns:GeneralInfoCreditVerificationRulesServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:GeneralInfoCreditVerificationRulesServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesServiceCommands.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Answer.xml,/tns:GeneralInfoCreditVerificationRulesServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/GeneralInfoFinancialSettingsServiceCommands.xml,/tns:GeneralInfoFinancialSettings/tns:ServiceCommands
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:CustomerClass
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.10,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:AutoApplyPayments
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.11,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:EnableWriteOffs
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.12,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:CurrencyID
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:ApplyOverdueCharges
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:WriteOffLimit
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:EnableRateOverride
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.5,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:CurrRateType
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:EnableCurrencyOverride
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:StatementCycleID
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoFinancialSettings/tns:Terms
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettingsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:GeneralInfoFinancialSettingsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettingsServiceCommands.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettingsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Answer.xml,/tns:GeneralInfoFinancialSettingsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/GeneralInfoFinancialSettingsServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Attachment.xml,/tns:GeneralInfoFinancialSettingsServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainAddress/tns:Country
+Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainAddress/tns:Validated
+Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainAddress/tns:AddressLine1
+Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainAddress/tns:AddressLine2
+Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainAddress/tns:City
+Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainAddress/tns:State
+Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainAddress/tns:PostalCode
+Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/GeneralInfoMainAddressServiceCommands.xml,/tns:GeneralInfoMainAddress/tns:ServiceCommands
+Structures/AR303000/Types/tns/GeneralInfoMainAddressServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:GeneralInfoMainAddressServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/GeneralInfoMainAddressServiceCommands.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoMainAddressServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Answer.xml,/tns:GeneralInfoMainAddressServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/GeneralInfoMainAddressServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Attachment.xml,/tns:GeneralInfoMainAddressServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/GeneralInfoMainContact.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/GeneralInfoMainContactServiceCommands.xml,/tns:GeneralInfoMainContact/tns:ServiceCommands
+Structures/AR303000/Types/tns/GeneralInfoMainContact.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainContact/tns:Phone2
+Structures/AR303000/Types/tns/GeneralInfoMainContact.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainContact/tns:Phone1
+Structures/AR303000/Types/tns/GeneralInfoMainContact.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainContact/tns:Email
+Structures/AR303000/Types/tns/GeneralInfoMainContact.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainContact/tns:Attention
+Structures/AR303000/Types/tns/GeneralInfoMainContact.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainContact/tns:Fax
+Structures/AR303000/Types/tns/GeneralInfoMainContact.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainContact/tns:Web
+Structures/AR303000/Types/tns/GeneralInfoMainContact.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:GeneralInfoMainContact/tns:CompanyName
+Structures/AR303000/Types/tns/GeneralInfoMainContact.xml,com.oaklandsw.base,references.8,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoMainContactServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Answer.xml,/tns:GeneralInfoMainContactServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/GeneralInfoMainContactServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Attachment.xml,/tns:GeneralInfoMainContactServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/GeneralInfoMainContactServiceCommands.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoMainContactServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:GeneralInfoMainContactServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/GeneralInfoServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Attachment.xml,/tns:GeneralInfoServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/GeneralInfoServiceCommands.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/GeneralInfoServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Answer.xml,/tns:GeneralInfoServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/GeneralInfoServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:GeneralInfoServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/ImportResult.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ImportResult.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/PrimaryKey.xml,/tns:ImportResult/tns:Keys
+Structures/AR303000/Types/tns/Key.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Key.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Command.xml,/tns:Key
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:SalesAccount
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.10,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:IsDefault
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.11,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:PriceClassID
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.12,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:TaxZone
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:LocationName
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:Active
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:State
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:LocationID
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/LocationsServiceCommands.xml,/tns:Locations/tns:ServiceCommands
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:NoteText
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:Country
+Structures/AR303000/Types/tns/Locations.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/Field.xml,/tns:Locations/tns:City
+Structures/AR303000/Types/tns/LocationsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Attachment.xml,/tns:LocationsServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/LocationsServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Answer.xml,/tns:LocationsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/LocationsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/NewRow.xml,/tns:LocationsServiceCommands/tns:NewRow
+Structures/AR303000/Types/tns/LocationsServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:LocationsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/LocationsServiceCommands.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Key.xml,/tns:LocationsServiceCommands/tns:KeyLocationID
+Structures/AR303000/Types/tns/LocationsServiceCommands.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/RowNumber.xml,/tns:LocationsServiceCommands/tns:RowNumber
+Structures/AR303000/Types/tns/LocationsServiceCommands.xml,com.oaklandsw.base,references.6,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/LoginResult.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/LoginResult.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/ErrorCode.xml,/tns:LoginResult/tns:Code
+Structures/AR303000/Types/tns/MailingSettingsMailings.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/MailingSettingsMailingsServiceCommands.xml,/tns:MailingSettingsMailings/tns:ServiceCommands
+Structures/AR303000/Types/tns/MailingSettingsMailings.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsMailings/tns:Overridden
+Structures/AR303000/Types/tns/MailingSettingsMailings.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsMailings/tns:MailingID
+Structures/AR303000/Types/tns/MailingSettingsMailings.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsMailings/tns:EmailAccountEmailAddress
+Structures/AR303000/Types/tns/MailingSettingsMailings.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsMailings/tns:Report
+Structures/AR303000/Types/tns/MailingSettingsMailings.xml,com.oaklandsw.base,references.5,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/MailingSettingsMailings.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsMailings/tns:EmailAccount
+Structures/AR303000/Types/tns/MailingSettingsMailings.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsMailings/tns:Format
+Structures/AR303000/Types/tns/MailingSettingsMailings.xml,com.oaklandsw.base,references.8,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsMailings/tns:NotificationTemplate
+Structures/AR303000/Types/tns/MailingSettingsMailings.xml,com.oaklandsw.base,references.9,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsMailings/tns:Active
+Structures/AR303000/Types/tns/MailingSettingsMailingsServiceCommands.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/MailingSettingsMailingsServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:MailingSettingsMailingsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/MailingSettingsMailingsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Key.xml,/tns:MailingSettingsMailingsServiceCommands/tns:KeyMailingID
+Structures/AR303000/Types/tns/MailingSettingsMailingsServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/NewRow.xml,/tns:MailingSettingsMailingsServiceCommands/tns:NewRow
+Structures/AR303000/Types/tns/MailingSettingsMailingsServiceCommands.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/RowNumber.xml,/tns:MailingSettingsMailingsServiceCommands/tns:RowNumber
+Structures/AR303000/Types/tns/MailingSettingsMailingsServiceCommands.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Answer.xml,/tns:MailingSettingsMailingsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/MailingSettingsRecipients.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsRecipients/tns:Bcc
+Structures/AR303000/Types/tns/MailingSettingsRecipients.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsRecipients/tns:ContactType
+Structures/AR303000/Types/tns/MailingSettingsRecipients.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsRecipients/tns:ContactID
+Structures/AR303000/Types/tns/MailingSettingsRecipients.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/MailingSettingsRecipientsServiceCommands.xml,/tns:MailingSettingsRecipients/tns:ServiceCommands
+Structures/AR303000/Types/tns/MailingSettingsRecipients.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsRecipients/tns:Email
+Structures/AR303000/Types/tns/MailingSettingsRecipients.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsRecipients/tns:Format
+Structures/AR303000/Types/tns/MailingSettingsRecipients.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:MailingSettingsRecipients/tns:Active
+Structures/AR303000/Types/tns/MailingSettingsRecipients.xml,com.oaklandsw.base,references.7,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/MailingSettingsRecipientsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/RowNumber.xml,/tns:MailingSettingsRecipientsServiceCommands/tns:RowNumber
+Structures/AR303000/Types/tns/MailingSettingsRecipientsServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Answer.xml,/tns:MailingSettingsRecipientsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/MailingSettingsRecipientsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/NewRow.xml,/tns:MailingSettingsRecipientsServiceCommands/tns:NewRow
+Structures/AR303000/Types/tns/MailingSettingsRecipientsServiceCommands.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/MailingSettingsRecipientsServiceCommands.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:MailingSettingsRecipientsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/NewRow.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Command.xml,/tns:NewRow
+Structures/AR303000/Types/tns/NewRow.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/PXSpecialButtonType.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Parameter.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Parameter.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Command.xml,/tns:Parameter
+Structures/AR303000/Types/tns/PaymentMethods.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:PaymentMethods/tns:CashAccount
+Structures/AR303000/Types/tns/PaymentMethods.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/PaymentMethods.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Field.xml,/tns:PaymentMethods/tns:PaymentMethod
+Structures/AR303000/Types/tns/PaymentMethods.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/PaymentMethodsServiceCommands.xml,/tns:PaymentMethods/tns:ServiceCommands
+Structures/AR303000/Types/tns/PaymentMethods.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/Field.xml,/tns:PaymentMethods/tns:IsDefault
+Structures/AR303000/Types/tns/PaymentMethods.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:PaymentMethods/tns:Override
+Structures/AR303000/Types/tns/PaymentMethods.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:PaymentMethods/tns:Active
+Structures/AR303000/Types/tns/PaymentMethods.xml,com.oaklandsw.base,references.7,Structures/AR303000/Types/tns/Field.xml,/tns:PaymentMethods/tns:Description
+Structures/AR303000/Types/tns/PaymentMethodsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Answer.xml,/tns:PaymentMethodsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/PaymentMethodsServiceCommands.xml,com.oaklandsw.base,references.1,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/PaymentMethodsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/NewRow.xml,/tns:PaymentMethodsServiceCommands/tns:NewRow
+Structures/AR303000/Types/tns/PaymentMethodsServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/RowNumber.xml,/tns:PaymentMethodsServiceCommands/tns:RowNumber
+Structures/AR303000/Types/tns/PaymentMethodsServiceCommands.xml,com.oaklandsw.base,references.4,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:PaymentMethodsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/PrimaryKey.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/PrimaryKey.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Value.xml,/tns:PrimaryKey/tns:CustomerID
+Structures/AR303000/Types/tns/ProcessResult.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/ProcessResult.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/ProcessStatus.xml,/tns:ProcessResult/tns:Status
+Structures/AR303000/Types/tns/ProcessStatus.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/RowNumber.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/RowNumber.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Command.xml,/tns:RowNumber
+Structures/AR303000/Types/tns/Salespersons.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:Salespersons/tns:Default
+Structures/AR303000/Types/tns/Salespersons.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:Salespersons/tns:LocationID
+Structures/AR303000/Types/tns/Salespersons.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/SalespersonsServiceCommands.xml,/tns:Salespersons/tns:ServiceCommands
+Structures/AR303000/Types/tns/Salespersons.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Field.xml,/tns:Salespersons/tns:Name
+Structures/AR303000/Types/tns/Salespersons.xml,com.oaklandsw.base,references.4,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Salespersons.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Field.xml,/tns:Salespersons/tns:SalespersonID
+Structures/AR303000/Types/tns/Salespersons.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/Field.xml,/tns:Salespersons/tns:LocationName
+Structures/AR303000/Types/tns/SalespersonsServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/RowNumber.xml,/tns:SalespersonsServiceCommands/tns:RowNumber
+Structures/AR303000/Types/tns/SalespersonsServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/NewRow.xml,/tns:SalespersonsServiceCommands/tns:NewRow
+Structures/AR303000/Types/tns/SalespersonsServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/Key.xml,/tns:SalespersonsServiceCommands/tns:KeySalespersonID
+Structures/AR303000/Types/tns/SalespersonsServiceCommands.xml,com.oaklandsw.base,references.3,Structures/AR303000/Types/tns/Answer.xml,/tns:SalespersonsServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/SalespersonsServiceCommands.xml,com.oaklandsw.base,references.4,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/SalespersonsServiceCommands.xml,com.oaklandsw.base,references.5,Structures/AR303000/Types/tns/Key.xml,/tns:SalespersonsServiceCommands/tns:KeyLocationID
+Structures/AR303000/Types/tns/SalespersonsServiceCommands.xml,com.oaklandsw.base,references.6,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:SalespersonsServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/SchemaMode.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/SpecifyNewID.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Field.xml,/tns:SpecifyNewID/tns:CustomerID
+Structures/AR303000/Types/tns/SpecifyNewID.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/SpecifyNewIDServiceCommands.xml,/tns:SpecifyNewID/tns:ServiceCommands
+Structures/AR303000/Types/tns/SpecifyNewID.xml,com.oaklandsw.base,references.2,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/SpecifyNewIDServiceCommands.xml,com.oaklandsw.base,references.0,Structures/AR303000/Types/tns/Answer.xml,/tns:SpecifyNewIDServiceCommands/tns:DialogAnswer
+Structures/AR303000/Types/tns/SpecifyNewIDServiceCommands.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Attachment.xml,/tns:SpecifyNewIDServiceCommands/tns:Attachment
+Structures/AR303000/Types/tns/SpecifyNewIDServiceCommands.xml,com.oaklandsw.base,references.2,Structures/AR303000/Types/tns/DeleteRow.xml,/tns:SpecifyNewIDServiceCommands/tns:DeleteRow
+Structures/AR303000/Types/tns/SpecifyNewIDServiceCommands.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Value.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
+Structures/AR303000/Types/tns/Value.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:Value/tns:Field
 assembly.xml,com.oaklandsw.base,order,9
 pom.xml,com.oaklandsw.base,order,8

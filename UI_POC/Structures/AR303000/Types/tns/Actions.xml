@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x158b1ee11aa' V1='4' name='Actions' incarnation='82'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Actions'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Save'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Save'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='6' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Cancel'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='7' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Cancel'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='8' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='9' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Insert'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='10' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Insert'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='11' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='12' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CopyDocumentEdit'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='13' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CopyDocumentEdit'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='14' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='15' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='PasteDocumentEdit'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='16' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='PasteDocumentEdit'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='17' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='18' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='SaveTemplateEdit'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='19' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='SaveTemplateEdit'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='20' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='21' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Delete'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='22' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Delete'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='23' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='24' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='First'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='25' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='First'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='26' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='27' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Prev'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='28' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Prev'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='29' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='30' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Next'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='31' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Next'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='32' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='33' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Last'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='34' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='Last'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='35' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='36' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewContact'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='37' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewContact'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='38' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='39' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewContact'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='40' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewContact'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='41' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='42' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewLocation'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='43' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewLocation'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='44' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='45' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewLocation'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='46' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewLocation'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='47' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='48' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='SetDefault'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='49' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='SetDefault'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='50' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='51' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewMainOnMap'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='52' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewMainOnMap'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='53' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='54' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewDefLocationOnMap'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='55' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewDefLocationOnMap'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='56' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='57' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewTask'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='58' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewTask'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='59' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='60' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewEvent'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='61' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewEvent'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='62' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='63' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewActivity'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='64' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewActivity'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='65' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='66' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewMailActivity'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='67' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewMailActivity'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='68' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='69' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='OpenActivityOwner'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='70' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='OpenActivityOwner'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='71' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='72' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewAllActivities'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='73' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewAllActivities'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='74' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='75' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NNewActivity'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='76' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NNewActivity'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='77' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='78' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CNewActivity'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='79' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CNewActivity'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='80' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='81' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ENewActivity'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='82' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ENewActivity'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='83' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='84' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='MNewActivity'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='85' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='MNewActivity'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='86' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='87' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='PNewActivity'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='88' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='PNewActivity'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='89' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='90' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='WNewActivity'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='91' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='WNewActivity'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='92' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='93' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewRestrictionGroups'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='94' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewRestrictionGroups'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='95' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='96' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewVendor'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='97' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewVendor'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='98' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='99' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewBusnessAccount'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='100' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewBusnessAccount'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='101' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='102' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ExtendToVendor'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='103' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ExtendToVendor'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='104' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='105' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerDocuments'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='106' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerDocuments'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='107' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='108' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='StatementForCustomer'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='109' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='StatementForCustomer'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='110' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='111' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewPaymentMethod'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='112' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewPaymentMethod'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='113' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='114' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='AddPaymentMethod'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='115' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='AddPaymentMethod'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='116' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='117' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewInvoiceMemo'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='118' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewInvoiceMemo'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='119' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='120' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewSalesOrder'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='121' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewSalesOrder'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='122' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='123' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewPayment'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='124' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewPayment'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='125' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='126' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='WriteOffBalance'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='127' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='WriteOffBalance'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='128' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='129' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewBillAddressOnMap'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='130' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewBillAddressOnMap'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='131' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='132' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='RegenerateLastStatement'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='133' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='RegenerateLastStatement'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='134' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='135' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewVendorAction'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='136' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewVendorAction'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='137' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='138' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewBusnessAccountAction'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='139' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewBusnessAccountAction'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='140' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='141' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewInvoiceMemoAction'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='142' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewInvoiceMemoAction'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='143' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='144' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewSalesOrderAction'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='145' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewSalesOrderAction'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='146' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='147' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewPaymentAction'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='148' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='NewPaymentAction'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='149' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='150' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='WriteOffBalanceAction'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='151' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='WriteOffBalanceAction'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='152' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='153' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ExtendToVendorAction'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='154' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ExtendToVendorAction'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='155' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='156' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewRestrictionGroupsAction'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='157' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ViewRestrictionGroupsAction'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='158' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='159' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='RegenerateLastStatementAction'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='160' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='RegenerateLastStatementAction'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='161' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='162' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ValidateAddressesAction'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='163' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ValidateAddressesAction'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='164' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='165' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerDocumentsInquiry'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='166' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerDocumentsInquiry'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='167' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='168' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='StatementForCustomerInquiry'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='169' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='StatementForCustomerInquiry'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='170' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='171' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='SalesPriceInquiry'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='172' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='SalesPriceInquiry'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='173' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='174' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARBalanceByCustomerReport'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='175' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARBalanceByCustomerReport'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='176' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='177' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerHistoryReport'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='178' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerHistoryReport'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='179' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='180' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARAgedPastDueReport'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='181' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARAgedPastDueReport'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='182' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='183' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARAgedOutstandingReport'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='184' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARAgedOutstandingReport'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='185' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='186' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARRegisterReport'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='187' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARRegisterReport'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='188' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='189' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerDetailsReport'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='190' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerDetailsReport'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='191' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='192' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerStatementReport'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='193' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerStatementReport'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='194' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='195' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARBalanceByCustomer'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='196' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARBalanceByCustomer'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='197' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='198' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerHistory'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='199' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerHistory'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='200' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='201' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARAgedPastDue'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='202' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARAgedPastDue'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='203' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='204' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARAgedOutstanding'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='205' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARAgedOutstanding'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='206' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='207' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARRegister'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='208' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ARRegister'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='209' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='210' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerDetails'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='211' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerDetails'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='212' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='213' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerStatement'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='214' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerStatement'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='215' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='216' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='SalesPrice'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='217' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='SalesPrice'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='218' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='219' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ValidateAddresses'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='220' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ValidateAddresses'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='221' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='222' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11a5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ChangeID'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='223' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Action.xml' namespaceIndex='1' V281='13' V1='4' name='ChangeID'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='224' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Action'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+  </rootElem>
+  <defaultRep t='172' id='225' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    <namespaceContainers t='220' ref='Namespace Containers/AR303000.xml'/>
+  </defaultRep>
+  <namespaceList t='161' id='226' V161='1' namespaceUri='___osdtDummy___' V1='4'>
+  </namespaceList>
+  <namespaceList t='161' id='227' V161='1' namespaceUri='http://www.acumatica.com/typed/' namespacePrefix='tns' V1='4'>
+  </namespaceList>
+  <child t='162' id='228' V1='4' name='Representations'>
+    <child t='172' idref='225'/>
+  </child>
+  <child t='165' id='229' V1='4' name='Document Bindings'>
+    <child t='166' id='230' V166='5' docType='1' V1='4' name='/tns:Actions'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>

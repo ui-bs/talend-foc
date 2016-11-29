@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x158b1ee11c5' V1='4' name='ContactsServiceCommands' incarnation='13'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='ContactsServiceCommands'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11d6' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/NewRow.xml' namespaceIndex='1' V281='13' V1='4' name='NewRow'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/NewRow.xml' namespaceIndex='1' V281='13' V1='4' name='NewRow'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='NewRow'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='6' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11d9' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/RowNumber.xml' namespaceIndex='1' V281='13' V1='4' name='RowNumber'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='7' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/RowNumber.xml' namespaceIndex='1' V281='13' V1='4' name='RowNumber'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='8' V167='21' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='RowNumber'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='9' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c8' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeleteRow.xml' namespaceIndex='1' V281='13' V1='4' name='DeleteRow'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='10' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeleteRow.xml' namespaceIndex='1' V281='13' V1='4' name='DeleteRow'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='11' V167='21' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='DeleteRow'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='12' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11b2' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Answer.xml' namespaceIndex='1' V281='13' V1='4' name='DialogAnswer'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='13' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Answer.xml' namespaceIndex='1' V281='13' V1='4' name='DialogAnswer'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='14' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11c3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Command.xml' namespaceIndex='1' V281='13' V1='4' name='Answer'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='15' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x158b1ee11b8' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Attachment.xml' namespaceIndex='1' V281='13' V1='4' name='Attachment'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='16' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Attachment.xml' namespaceIndex='1' V281='13' V1='4' name='Attachment'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='17' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11cd' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='Structures/AR303000/Types/tns/Field.xml' namespaceIndex='1' V281='13' V1='4' name='Attachment'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+  </rootElem>
+  <defaultRep t='172' id='18' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    <namespaceContainers t='220' ref='Namespace Containers/AR303000.xml'/>
+  </defaultRep>
+  <namespaceList t='161' id='19' V161='1' namespaceUri='___osdtDummy___' V1='4'>
+  </namespaceList>
+  <namespaceList t='161' id='20' V161='1' namespaceUri='http://www.acumatica.com/typed/' namespacePrefix='tns' V1='4'>
+  </namespaceList>
+  <child t='162' id='21' V1='4' name='Representations'>
+    <child t='172' idref='18'/>
+  </child>
+  <child t='165' id='22' V1='4' name='Document Bindings'>
+    <child t='166' id='23' V166='5' docType='1' V1='4' name='/tns:ContactsServiceCommands'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>

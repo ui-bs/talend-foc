@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x158b1ee11c6' V1='4' name='Content' incarnation='43'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Content'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='82' inheritsFromTimestamp='0x158b1ee11aa' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Actions.xml' namespaceIndex='1' V281='13' V1='4' name='Actions' checksumValid='true' checksum='CP0/1I63r9HRT1lAgJGOwEHUFPI='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Actions.xml' namespaceIndex='1' V281='13' V1='4' name='Actions'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Actions'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='6' V167='21' inheritsFromIncarnation='13' inheritsFromTimestamp='0x158b1ee11c6' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/CustomerSummary.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerSummary'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='7' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/CustomerSummary.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerSummary'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='8' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='CustomerSummary'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='9' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11ce' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfo.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfo'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='10' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfo.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfo'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='11' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='GeneralInfo'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='12' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x158b1ee11cf' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoFinancialSettings' checksumValid='true' checksum='TPbsAQOttA+EaiOFzo1AZSWI/N0='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='13' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfoFinancialSettings.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoFinancialSettings'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='14' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoFinancialSettings'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='15' V167='21' inheritsFromIncarnation='12' inheritsFromTimestamp='0x158b1ee11cf' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerification.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoCreditVerificationRulesCreditVerification'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='16' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRulesCreditVerification.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoCreditVerificationRulesCreditVerification'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='17' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoCreditVerificationRulesCreditVerification'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='18' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11bc' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMain.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToContactSameAsMain'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='19' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsBillToContactSameAsMain.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToContactSameAsMain'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='20' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToContactSameAsMain'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='21' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11ba' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMain.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToAddressSameAsMain'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='22' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsBillToAddressSameAsMain.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToAddressSameAsMain'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='23' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToAddressSameAsMain'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='24' V167='21' inheritsFromIncarnation='12' inheritsFromTimestamp='0x158b1ee11c0' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsParentInfo.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsParentInfo'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='25' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsParentInfo.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsParentInfo'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='26' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsParentInfo'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='27' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x158b1ee11c1' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsPrintAndEmailSettings' checksumValid='true' checksum='c9JDfNXjsMpKEDFffzPbJ8bawhk='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='28' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsPrintAndEmailSettings.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsPrintAndEmailSettings'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='29' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsPrintAndEmailSettings'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='30' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11be' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethod.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsDefaultPaymentMethodDefaultPaymentMethod'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='31' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodDefaultPaymentMethod.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsDefaultPaymentMethodDefaultPaymentMethod'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='32' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsDefaultPaymentMethodDefaultPaymentMethod'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='33' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x158b1ee11d2' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml' namespaceIndex='1' V281='13' V1='4' name='GLAccountsCashDiscountAccount' checksumValid='true' checksum='crBt2SY9CnG9mH6mcvkB0iJiGL8='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='34' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GLAccountsCashDiscountAccount.xml' namespaceIndex='1' V281='13' V1='4' name='GLAccountsCashDiscountAccount'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='35' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='GLAccountsCashDiscountAccount'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='36' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x158b1ee11d0' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoMainAddress' checksumValid='true' checksum='eezko2EVnmGyrso2B10/M5g7Kus='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='37' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfoMainAddress.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoMainAddress'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='38' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoMainAddress'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='39' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x158b1ee11ba' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToAddress' checksumValid='true' checksum='i74/gRVqgetRZ5qgmgjgcmpdtq8='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='40' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsBillToAddress.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToAddress'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='41' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToAddress'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='42' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x158b1ee11d1' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfoMainContact.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoMainContact' checksumValid='true' checksum='x5d2aV8xNh83PdZtZqunrLykYZA='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='43' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfoMainContact.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoMainContact'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoMainContact'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='45' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x158b1ee11c9' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingContact' checksumValid='true' checksum='eM8kGoZBHUUESDLW90EMEOdPH1o='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='46' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeliverySettingsShippingContact.xml' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingContact'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='47' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingContact'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='48' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x158b1ee11bc' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToContact' checksumValid='true' checksum='aWqinaQXUNgGe6541GhlQr4eJVM='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='49' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsBillToContact.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToContact'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='50' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsBillToContact'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='51' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x158b1ee11d3' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Locations.xml' namespaceIndex='1' V281='13' V1='4' name='Locations' checksumValid='true' checksum='4PO+Iohniq6bi8BXish/+vmCeio='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='52' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Locations.xml' namespaceIndex='1' V281='13' V1='4' name='Locations'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='53' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Locations'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='54' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11ca' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMain.xml' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingContactSameAsMain'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='55' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeliverySettingsShippingContactSameAsMain.xml' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingContactSameAsMain'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='56' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingContactSameAsMain'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='57' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x158b1ee11c9' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingAddress' checksumValid='true' checksum='4LMYpF1zyes4fF8/Kg1dpwksAtQ='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='58' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeliverySettingsShippingAddress.xml' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingAddress'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='59' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingAddress'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='60' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x158b1ee11c8' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsDefaultLocationSettings' checksumValid='true' checksum='7pZG2JNJurXtXWk/CsdUWCTT+g8='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='61' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeliverySettingsDefaultLocationSettings.xml' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsDefaultLocationSettings'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='62' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsDefaultLocationSettings'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='63' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x158b1ee11cb' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingInstructions' checksumValid='true' checksum='+K9qex1a1VvVaZ/+pGWf6vBqUCM='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='64' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/DeliverySettingsShippingInstructions.xml' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingInstructions'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='65' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='DeliverySettingsShippingInstructions'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='66' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x158b1ee11d2' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GLAccounts.xml' namespaceIndex='1' V281='13' V1='4' name='GLAccounts' checksumValid='true' checksum='0UzwuStAkAdHZZgwsOiGiWGkasA='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='67' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GLAccounts.xml' namespaceIndex='1' V281='13' V1='4' name='GLAccounts'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='68' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='GLAccounts'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='69' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x158b1ee11c4' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Contacts.xml' namespaceIndex='1' V281='13' V1='4' name='Contacts' checksumValid='true' checksum='yCh6rfXf9x8ve4Ld5dvU2hPqIb8='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='70' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Contacts.xml' namespaceIndex='1' V281='13' V1='4' name='Contacts'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='71' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Contacts'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='72' V167='21' inheritsFromIncarnation='14' inheritsFromTimestamp='0x158b1ee11d9' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Salespersons.xml' namespaceIndex='1' V281='13' V1='4' name='Salespersons'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='73' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Salespersons.xml' namespaceIndex='1' V281='13' V1='4' name='Salespersons'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='74' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Salespersons'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='75' V167='21' inheritsFromIncarnation='12' inheritsFromTimestamp='0x158b1ee11c7' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/CustomerSummaryBalance.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerSummaryBalance'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='76' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/CustomerSummaryBalance.xml' namespaceIndex='1' V281='13' V1='4' name='CustomerSummaryBalance'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='77' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='CustomerSummaryBalance'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='78' V167='21' inheritsFromIncarnation='13' inheritsFromTimestamp='0x158b1ee11ce' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRules.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoCreditVerificationRules'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='79' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/GeneralInfoCreditVerificationRules.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoCreditVerificationRules'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='80' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoCreditVerificationRules'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='81' V167='21' inheritsFromIncarnation='13' inheritsFromTimestamp='0x158b1ee11bd' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethod.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsDefaultPaymentMethod'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='82' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethod.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsDefaultPaymentMethod'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='83' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsDefaultPaymentMethod'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='84' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x158b1ee11d6' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/PaymentMethods.xml' namespaceIndex='1' V281='13' V1='4' name='PaymentMethods' checksumValid='true' checksum='usYQToZ2r9bGYNnAXBXEoiAzVqo='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='85' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/PaymentMethods.xml' namespaceIndex='1' V281='13' V1='4' name='PaymentMethods'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='86' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='PaymentMethods'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='87' V167='21' inheritsFromIncarnation='12' inheritsFromTimestamp='0x158b1ee11b8' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Attributes.xml' namespaceIndex='1' V281='13' V1='4' name='Attributes'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='88' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Attributes.xml' namespaceIndex='1' V281='13' V1='4' name='Attributes'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='89' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Attributes'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='90' V167='21' inheritsFromIncarnation='28' inheritsFromTimestamp='0x158b1ee11ad' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Activities.xml' namespaceIndex='1' V281='13' V1='4' name='Activities' checksumValid='true' checksum='NSFZifomjdlYtXaFdX8kJDx/q14='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='91' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/Activities.xml' namespaceIndex='1' V281='13' V1='4' name='Activities'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='92' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Activities'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='93' V167='21' inheritsFromIncarnation='11' inheritsFromTimestamp='0x158b1ee11bf' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetails.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsDefaultPaymentMethodPaymentMethodDetails'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='94' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/BillingSettingsDefaultPaymentMethodPaymentMethodDetails.xml' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsDefaultPaymentMethodPaymentMethodDetails'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='95' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='BillingSettingsDefaultPaymentMethodPaymentMethodDetails'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='96' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x158b1ee11d5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/MailingSettingsMailings.xml' namespaceIndex='1' V281='13' V1='4' name='MailingSettingsMailings' checksumValid='true' checksum='3bq6eXII1PWAqrkLu1LZQDd7rFc='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='97' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/MailingSettingsMailings.xml' namespaceIndex='1' V281='13' V1='4' name='MailingSettingsMailings'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='98' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='MailingSettingsMailings'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='99' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x158b1ee11d5' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/MailingSettingsRecipients.xml' namespaceIndex='1' V281='13' V1='4' name='MailingSettingsRecipients' checksumValid='true' checksum='U5EabAEMZJ/9zM8IS1f1Bjo1g6A='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='100' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/MailingSettingsRecipients.xml' namespaceIndex='1' V281='13' V1='4' name='MailingSettingsRecipients'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='101' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='MailingSettingsRecipients'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='102' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x158b1ee11c2' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/ChildAccounts.xml' namespaceIndex='1' V281='13' V1='4' name='ChildAccounts' checksumValid='true' checksum='zY6a+KciphBvSvFcjElj8oV5T84='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='103' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/ChildAccounts.xml' namespaceIndex='1' V281='13' V1='4' name='ChildAccounts'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='104' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='ChildAccounts'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='105' V167='21' inheritsFromIncarnation='10' inheritsFromTimestamp='0x158b1ee11da' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/SpecifyNewID.xml' namespaceIndex='1' V281='13' V1='4' name='SpecifyNewID'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='106' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/AR303000/Types/tns/SpecifyNewID.xml' namespaceIndex='1' V281='13' V1='4' name='SpecifyNewID'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='107' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='SpecifyNewID'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+  </rootElem>
+  <defaultRep t='172' id='108' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    <namespaceContainers t='220' ref='Namespace Containers/AR303000.xml'/>
+  </defaultRep>
+  <namespaceList t='161' id='109' V161='1' namespaceUri='___osdtDummy___' V1='4'>
+  </namespaceList>
+  <namespaceList t='161' id='110' V161='1' namespaceUri='http://www.acumatica.com/typed/' namespacePrefix='tns' V1='4'>
+  </namespaceList>
+  <child t='162' id='111' V1='4' name='Representations'>
+    <child t='172' idref='108'/>
+  </child>
+  <child t='165' id='112' V1='4' name='Document Bindings'>
+    <child t='166' id='113' V166='5' docType='1' V1='4' name='/tns:Content'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>
