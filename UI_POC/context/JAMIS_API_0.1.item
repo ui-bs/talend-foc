@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_1d1K0LZ0EeaoGb77rxFw1A" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_1d1K0bZ0EeaoGb77rxFw1A" comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="bs-integration"/>
+    <contextParameter xmi:id="_1d1K0rZ0EeaoGb77rxFw1A" comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value="PrT+NDdqPMAoh7oNnQi9mA=="/>
+    <contextParameter xmi:id="_1d1K07Z0EeaoGb77rxFw1A" comment="" name="api_url" prompt="api_url?" promptNeeded="false" type="id_String" value="https://urbant.jamisprime.com/Soap/AR303000.asmx"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_1d1K1LZ0EeaoGb77rxFw1A" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_1d1K1bZ0EeaoGb77rxFw1A" comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="bs-integration"/>
+    <contextParameter xmi:id="_1d1K1rZ0EeaoGb77rxFw1A" comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value="PrT+NDdqPMAoh7oNnQi9mA=="/>
+    <contextParameter xmi:id="_1d1K17Z0EeaoGb77rxFw1A" comment="" name="api_url" prompt="api_url?" promptNeeded="false" type="id_String" value="https://urbant.jamisprime.com/Soap/AR303000.asmx"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_1d1K2LZ0EeaoGb77rxFw1A" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_1d1K2bZ0EeaoGb77rxFw1A" comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_1d1K2rZ0EeaoGb77rxFw1A" comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_1d1K27Z0EeaoGb77rxFw1A" comment="" name="api_url" prompt="api_url?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>
