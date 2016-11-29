@@ -2,5 +2,5 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
   <Services:ServiceConnection xmi:id="_VnzbILZ5EeaSm56G1X_JSA" WSDLPath="F:/Urban Institute/SalesforceOpportunity.wsdl" servicePort="_VpBjILZ5EeaSm56G1X_JSA"/>
   <Services:ServicePort xmi:id="_VpBjILZ5EeaSm56G1X_JSA" name="NotificationPort" id="_Vo7cgLZ5EeaSm56G1X_JSA" serviceOperation="_VpBjIbZ5EeaSm56G1X_JSA"/>
-  <Services:ServiceOperation xmi:id="_VpBjIbZ5EeaSm56G1X_JSA" label="notifications" name="notifications" id="_Vo8DkLZ5EeaSm56G1X_JSA" documentation="Process a number of notifications."/>
+  <Services:ServiceOperation xmi:id="_VpBjIbZ5EeaSm56G1X_JSA" label="notifications-SalesforceOpportunity_notifications" name="notifications" id="_Vo8DkLZ5EeaSm56G1X_JSA" referenceJobId="_gQreULZ5EeaSm56G1X_JSA" documentation="Process a number of notifications."/>
 </xmi:XMI>
