@@ -1,0 +1,16 @@
+ ---=== Start Migration of project UI-POC ===---
+ * Task [Remove routine folder] : Nothing to do
+ * Task [Change xmi serialization] : Nothing to do
+ * Task [Clean all folders from project] : Applied successfully
+ * Task [Remove the use of bin folder.] : Applied successfully
+ * Task [UpdateExistentMigrationTasksToAdaptNewMigrationSystemMigrationTask] : Nothing to do
+ * Task [ChangeMysqlVersionForProjectSetting] : Nothing to do
+ * Task [ChangeOracleVersionForProjectSetting] : Nothing to do
+ * Task [Remove routine dependency on talend jars] : Nothing to do
+ * Task [ChangePostgresDbVersionForProjectSetting] : Nothing to do
+ * Task [Encrypt passwords in new password fields of project settings implicit context load and stats logs] : Nothing to do
+ * Task [UnifyPasswordEncryption4ProjectSettingsMigrationTask] : Nothing to do
+ * Task [ChangeComponentSettingNameMigrationTask] : Applied successfully
+ * Task [Remove routine dependency on antlr-3.3 jars] : Nothing to do
+ * Task [RemoveProjectLibsFolder] : Nothing to do
+ * Task [RemoveConfigMavenRepository] : Applied successfully
