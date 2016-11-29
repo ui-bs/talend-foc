@@ -360,4 +360,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_C4pSgrZnEeaoGb77rxFw1A" login="myoussef@urban.org" firstName="Mahmoud" lastName="Youssef" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_I0atYLZnEeaoGb77rxFw1A" login="admin@company.com" firstName="admin" lastName="admin" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_1qeNwLZ2EeaJUaTOKnESuA" login="adminbj@urban.org" firstName="Ben" lastName="Joyner" type="DQ" additionnalData="{}"/>
 </xmi:XMI>
