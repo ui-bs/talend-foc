@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/JAMIS_Sample/tHMap_1_input.xml' outStruct='Structures/AR303000/Elements/tns/Login.xml' inputRep='178' outputRep='172' nextMap='' inputStructUserName='tHMap_1_input' outputStructUserName='Login' V1='4' name='tHMap_1' incarnation='65'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
+    <mapNode t='190' idref='1'/>
+  </inputMapElem>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_loop='true' V1='4' name='Login'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/root,{Filter},{Sort Keys},{Contexts})</loop>
+  </outputMapElem>
+  <outputNsList t='161' id='4' V161='1' namespaceUri='___osdtDummy___' V1='4'>
+  </outputNsList>
+  <outputNsList t='161' id='5' V161='1' namespaceUri='http://www.acumatica.com/typed/' namespacePrefix='tns' V1='4'>
+  </outputNsList>
+  <inputRepRuntime t='698' id='6' V698='1' V690='1' padOutput='true'>
+  </inputRepRuntime>
+  <outputRepRuntime t='692' id='7' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/AR303000.xml'/>
+  </outputRepRuntime>
+  <valueSets></valueSets>
+  <outputXmlRepRuntime t='692' idref='7'/>
+  <child t='165' id='8' V1='4' name='Document Bindings'>
+    <child t='166' id='9' V166='5' docType='1' V1='4' name='in$/root'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='10' V166='5' docType='2' V1='4' name='out$/tns:Login'>
+      <elemNode t='200' idref='3'/>
+    </child>
+  </child>
+  <child t='201' id='11' V1='4' name='Inherits From'>
+  </child>
+</root>
