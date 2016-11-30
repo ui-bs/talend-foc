@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x158b6267b2e' V1='4' name='PM2016JMArrayOfContent' incarnation='9'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='PM2016JMArrayOfContent'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x158b6267b30' inheritsInThisStruct='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='Structures/IndirectJob/Types/tns/PM2016JMContent.xml' namespaceIndex='1' V281='13' V1='4' name='Content'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='Structures/IndirectJob/Types/tns/PM2016JMContent.xml' namespaceIndex='1' V281='13' V1='4' name='Content'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='PM2016JMContent'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+  </rootElem>
+  <defaultRep t='172' id='6' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    <namespaceContainers t='220' ref='Namespace Containers/IndirectJob.xml'/>
+  </defaultRep>
+  <namespaceList t='161' id='7' V161='1' namespaceUri='___osdtDummy___' V1='4'>
+  </namespaceList>
+  <namespaceList t='161' id='8' V161='1' namespaceUri='http://www.acumatica.com/generic/' namespacePrefix='tns' V1='4'>
+  </namespaceList>
+  <child t='162' id='9' V1='4' name='Representations'>
+    <child t='172' idref='6'/>
+  </child>
+  <child t='165' id='10' V1='4' name='Document Bindings'>
+    <child t='166' id='11' V166='5' docType='1' V1='4' name='/tns:PM2016JMArrayOfContent'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>
