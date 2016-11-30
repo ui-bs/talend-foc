@@ -660,5 +660,20 @@ Structures/AR303000/Types/tns/SpecifyNewIDServiceCommands.xml,com.oaklandsw.base
 Structures/AR303000/Types/tns/SpecifyNewIDServiceCommands.xml,com.oaklandsw.base,references.3,Namespace Containers/AR303000.xml
 Structures/AR303000/Types/tns/Value.xml,com.oaklandsw.base,references.0,Namespace Containers/AR303000.xml
 Structures/AR303000/Types/tns/Value.xml,com.oaklandsw.base,references.1,Structures/AR303000/Types/tns/Field.xml,/tns:Value/tns:Field
+Structures/SalesforceOpportunity/Attributes/xsi/nil.xml,com.oaklandsw.base,references.0,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Attributes/xsi/noNamespaceSchemaLocation.xml,com.oaklandsw.base,references.0,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Attributes/xsi/schemaLocation.xml,com.oaklandsw.base,references.0,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Attributes/xsi/type.xml,com.oaklandsw.base,references.0,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Elements/tns/notifications.xml,com.oaklandsw.base,references.0,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Elements/tns/notifications.xml,com.oaklandsw.base,references.1,Structures/SalesforceOpportunity/Types/tns/OpportunityNotification.xml,/tns:notifications/tns:Notification
+Structures/SalesforceOpportunity/Elements/tns/notificationsResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Types/ens/AggregateResult.xml,com.oaklandsw.base,references.0,Structures/SalesforceOpportunity/Types/ens/sObject.xml,/ens:AggregateResult/ens:sObject
+Structures/SalesforceOpportunity/Types/ens/AggregateResult.xml,com.oaklandsw.base,references.1,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Types/ens/Opportunity.xml,com.oaklandsw.base,references.0,Structures/SalesforceOpportunity/Types/ens/sObject.xml,/ens:Opportunity/ens:sObject
+Structures/SalesforceOpportunity/Types/ens/Opportunity.xml,com.oaklandsw.base,references.1,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Types/ens/sObject.xml,com.oaklandsw.base,references.0,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Types/ent/ID.xml,com.oaklandsw.base,references.0,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Types/tns/OpportunityNotification.xml,com.oaklandsw.base,references.0,Namespace Containers/SalesforceOpportunity.xml
+Structures/SalesforceOpportunity/Types/tns/OpportunityNotification.xml,com.oaklandsw.base,references.1,Structures/SalesforceOpportunity/Types/ens/Opportunity.xml,/tns:OpportunityNotification/tns:sObject
 assembly.xml,com.oaklandsw.base,order,9
 pom.xml,com.oaklandsw.base,order,8
