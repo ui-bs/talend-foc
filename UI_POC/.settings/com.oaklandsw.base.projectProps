@@ -5,6 +5,8 @@ Maps/Jobs/JAMIS_Sample/tHMap_1.xml,com.oaklandsw.base,references.0,Structures/Jo
 Maps/Jobs/JAMIS_Sample/tHMap_1.xml,com.oaklandsw.base,references.1,Structures/AR303000/Elements/tns/Login.xml
 Maps/Jobs/JAMIS_Sample/tHMap_2.xml,com.oaklandsw.base,references.0,Structures/Jobs/JAMIS_Sample/tHMap_2_output.xml
 Maps/Jobs/JAMIS_Sample/tHMap_2.xml,com.oaklandsw.base,references.1,Structures/AR303000/Elements/tns/LoginResponse.xml
+Maps/Jobs/SalesforceOpportunity_notifications/tHMap_1.xml,com.oaklandsw.base,references.0,Structures/SalesforceOpportunity/Elements/tns/notifications.xml
+Maps/Jobs/SalesforceOpportunity_notifications/tHMap_1.xml,com.oaklandsw.base,references.1,Structures/Jobs/SalesforceOpportunity_notifications/tHMap_1_output.xml
 Namespace Containers,com.oaklandsw.base,order,4
 Reports,com.oaklandsw.base,order,7
 Sample Data,com.oaklandsw.base,order,6
