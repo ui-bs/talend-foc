@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+  <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <routinesParameter id="_I8CYULZnEeaoGb77rxFw1A" name="DQTechnical"/>
     <routinesParameter id="_I3rcwLZnEeaoGb77rxFw1A" name="DataMasking"/>
@@ -16,4 +17,6 @@
     <routinesParameter id="_I9BPwLZnEeaoGb77rxFw1A" name="TalendDate"/>
     <routinesParameter id="_I9KZsLZnEeaoGb77rxFw1A" name="TalendString"/>
   </parameters>
+  <node componentName="tRouteInput" posX="100" posY="100"/>
+  <node componentName="tRouteOutput" posX="400" posY="100"/>
 </talendfile:ProcessType>
