@@ -117,7 +117,7 @@
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRouteInput_1">
-      <column defaultValue="" key="false" length="0" name="body" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="0" name="body" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="96">
@@ -131,9 +131,7 @@
     </metadata>
     <nodeData xsi:type="TalendXMLMap:XmlMapData">
       <inputTrees name="row3" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
-        <nodes name="body" expression="" type="id_Document" xpath="row3/body">
-          <children name="root" type="id_String" xpath="row3.body:/root" loop="true" main="true"/>
-        </nodes>
+        <nodes name="body" expression="" type="id_String" xpath="row3/body"/>
       </inputTrees>
       <outputTrees name="getSchema_request">
         <nodes name="payload" expression="" type="id_Document" xpath="getSchema_request/payload">
