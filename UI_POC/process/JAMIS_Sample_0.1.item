@@ -13,7 +13,7 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="user" prompt="user?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_String" value="bs-integration"/>
     <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_Password" value="PrT+NDdqPMAoh7oNnQi9mA=="/>
-    <contextParameter comment="" name="api_url" prompt="api_url?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_String" value="https://urbant.jamisprime.com/Soap/AR303000.asmx"/>
+    <contextParameter comment="" name="api_url" prompt="api_url?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_String" value="https://urbant.jamisprime.com/Soap/APITEST1.asmx"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>

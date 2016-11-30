@@ -3,7 +3,7 @@
   <talendfile:ContextType xmi:id="_1d1K0LZ0EeaoGb77rxFw1A" confirmationNeeded="false" name="Default">
     <contextParameter xmi:id="_1d1K0bZ0EeaoGb77rxFw1A" comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="bs-integration"/>
     <contextParameter xmi:id="_1d1K0rZ0EeaoGb77rxFw1A" comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value="PrT+NDdqPMAoh7oNnQi9mA=="/>
-    <contextParameter xmi:id="_1d1K07Z0EeaoGb77rxFw1A" comment="" name="api_url" prompt="api_url?" promptNeeded="false" type="id_String" value="https://urbant.jamisprime.com/Soap/AR303000.asmx"/>
+    <contextParameter xmi:id="_1d1K07Z0EeaoGb77rxFw1A" comment="" name="api_url" prompt="api_url?" promptNeeded="false" type="id_String" value="https://urbant.jamisprime.com/Soap/APITEST1.asmx"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_1d1K1LZ0EeaoGb77rxFw1A" confirmationNeeded="false" name="DEV">
     <contextParameter xmi:id="_1d1K1bZ0EeaoGb77rxFw1A" comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="bs-integration"/>
