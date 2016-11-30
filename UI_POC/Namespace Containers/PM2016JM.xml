@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='220' id='1' V220='3' V1='4' name='PM2016JM' incarnation='31'>
+  <namespaceRoot t='221' id='2' V222='3' V1='4'>
+    <namespaceContainer t='220' idref='1'/>
+    <child t='222' id='3' V222='3' namespaceUri='http://www.w3.org/2001/XMLSchema' V1='4' name='xs'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+    <child t='222' id='4' V222='3' namespaceUri='http://www.w3.org/2001/XMLSchema-instance' V1='4' name='xsi'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+    <child t='222' id='5' V222='3' namespaceUri='http://schemas.xmlsoap.org/wsdl/http/' V1='4' name='http'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+    <child t='222' id='6' V222='3' namespaceUri='http://schemas.xmlsoap.org/wsdl/mime/' V1='4' name='mime'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+    <child t='222' id='7' V222='3' namespaceUri='http://schemas.xmlsoap.org/wsdl/soap/' V1='4' name='soap'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+    <child t='222' id='8' V222='3' namespaceUri='http://schemas.xmlsoap.org/wsdl/soap12/' V1='4' name='soap12'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+    <child t='222' id='9' V222='3' namespaceUri='http://schemas.xmlsoap.org/soap/encoding/' V1='4' name='soapenc'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+    <child t='222' id='10' V222='3' namespaceUri='http://microsoft.com/wsdl/mime/textMatching/' V1='4' name='tm'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+    <child t='222' id='11' V222='3' namespaceUri='http://www.acumatica.com/typed/' V1='4' name='tns'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+    <child t='222' id='12' V222='3' namespaceUri='http://schemas.xmlsoap.org/wsdl/' V1='4' name='wsdl'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+  </namespaceRoot>
+</root>

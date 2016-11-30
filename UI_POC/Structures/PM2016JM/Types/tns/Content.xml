@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x158b614f474' V1='4' name='Content' incarnation='15'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Content'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x158b614f464' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/Actions.xml' namespaceIndex='1' V281='13' V1='4' name='Actions' checksumValid='true' checksum='QXpC6XBcCTwoM99FSGB2FcceYiQ='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/Actions.xml' namespaceIndex='1' V281='13' V1='4' name='Actions'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Actions'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='6' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x158b614f47f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/Summary.xml' namespaceIndex='1' V281='13' V1='4' name='Summary' checksumValid='true' checksum='DVFAQyDsESxit2SFU8+gfr3bw0o='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='7' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/Summary.xml' namespaceIndex='1' V281='13' V1='4' name='Summary'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='8' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Summary'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='9' V167='21' inheritsFromIncarnation='31' inheritsFromTimestamp='0x158b614f479' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/GeneralInfoGeneral.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoGeneral' checksumValid='true' checksum='tUydHvNZ7+JDVD0nKLrcVAthDkc='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='10' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/GeneralInfoGeneral.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoGeneral'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='11' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoGeneral'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='12' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x158b614f47a' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/GeneralInfoVisibility.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoVisibility' checksumValid='true' checksum='ekKssJOUfOhcSrTjZKtzx5la0Rc='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='13' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/GeneralInfoVisibility.xml' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoVisibility'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='14' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='GeneralInfoVisibility'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='15' V167='21' inheritsFromIncarnation='13' inheritsFromTimestamp='0x158b614f471' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/BurdensContracts.xml' namespaceIndex='1' V281='13' V1='4' name='BurdensContracts'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='16' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/BurdensContracts.xml' namespaceIndex='1' V281='13' V1='4' name='BurdensContracts'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='17' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='BurdensContracts'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='18' V167='21' inheritsFromIncarnation='11' inheritsFromTimestamp='0x158b614f470' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/AttributesAttributes.xml' namespaceIndex='1' V281='13' V1='4' name='AttributesAttributes'>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='19' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/AttributesAttributes.xml' namespaceIndex='1' V281='13' V1='4' name='AttributesAttributes'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='20' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='AttributesAttributes'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='21' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x158b614f480' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/Tasks.xml' namespaceIndex='1' V281='13' V1='4' name='Tasks' checksumValid='true' checksum='UeNRg1Za0fZNt5Oqxh+xazmPxDM='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='22' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/PM2016JM/Types/tns/Tasks.xml' namespaceIndex='1' V281='13' V1='4' name='Tasks'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='23' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Tasks'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+  </rootElem>
+  <defaultRep t='172' id='24' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    <namespaceContainers t='220' ref='Namespace Containers/PM2016JM.xml'/>
+  </defaultRep>
+  <namespaceList t='161' id='25' V161='1' namespaceUri='___osdtDummy___' V1='4'>
+  </namespaceList>
+  <namespaceList t='161' id='26' V161='1' namespaceUri='http://www.acumatica.com/typed/' namespacePrefix='tns' V1='4'>
+  </namespaceList>
+  <child t='162' id='27' V1='4' name='Representations'>
+    <child t='172' idref='24'/>
+  </child>
+  <child t='165' id='28' V1='4' name='Document Bindings'>
+    <child t='166' id='29' V166='5' docType='1' V1='4' name='/tns:Content'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>
