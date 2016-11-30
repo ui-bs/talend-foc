@@ -103,7 +103,6 @@
       <relatedItems xmi:id="__6PCoLcUEeaakoFslUiWng" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="__6PCobcUEeaakoFslUiWng" id="_LvENcLcTEeaakoFslUiWng - Opportunity" version="Latest" type="schema"/>
     </ItemsRelations>
-    <deletedFolders>Structures/IndirectJob</deletedFolders>
     <migrationTask xmi:id="_Iy0K4LZnEeaoGb77rxFw1A" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Iy0K4bZnEeaoGb77rxFw1A" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Iy0K4rZnEeaoGb77rxFw1A" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
