@@ -198,10 +198,10 @@
     <elementParameter field="RADIO" name="SOURCE_AS_MAP" value="true"/>
     <elementParameter field="RADIO" name="SOURCE_AS_STRING" value="false" show="false"/>
     <elementParameter field="RADIO" name="AS_MAP" value="false" show="false"/>
-    <elementParameter field="RADIO" name="AS_STRING" value="true"/>
+    <elementParameter field="RADIO" name="AS_STRING" value="false"/>
     <elementParameter field="RADIO" name="AS_BYTEARRAY" value="false"/>
     <elementParameter field="RADIO" name="AS_INPUTSTREAM" value="false"/>
-    <elementParameter field="RADIO" name="AS_DOCUMENT" value="false"/>
+    <elementParameter field="RADIO" name="AS_DOCUMENT" value="true"/>
     <elementParameter field="TEXT" name="SOURCE_TDM_STRUCT_INCARNATION" value="10" show="false"/>
     <elementParameter field="TEXT" name="TARGET_TDM_STRUCT_INCARNATION" value="8" show="false"/>
     <elementParameter field="TEXT" name="SOURCE_GENERATED_TDM_STRUCT_PATH" value="Structures/Jobs/SalesforceOpportunity_notifications/tHMap_2_input.xml" show="false"/>
