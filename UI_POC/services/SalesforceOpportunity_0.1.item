@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
-  <Services:ServiceConnection xmi:id="_VnzbILZ5EeaSm56G1X_JSA" WSDLPath="F:/Urban Institute/SalesforceOpportunity.wsdl" servicePort="_yP4CALctEea3EIc7zlZ-_Q"/>
+  <Services:ServiceConnection xmi:id="_VnzbILZ5EeaSm56G1X_JSA" WSDLPath="F:/Urban Institute/SalesforceOpportunity.wsdl" servicePort="_yP4CALctEea3EIc7zlZ-_Q">
+    <additionalInfo xmi:id="_A-LNALcvEea3EIc7zlZ-_Q" key="groupId" value="org.urban"/>
+    <additionalInfo xmi:id="_A-L0ELcvEea3EIc7zlZ-_Q" key="artifactId" value="SalesforceOpportunity"/>
+    <additionalInfo xmi:id="_A-L0EbcvEea3EIc7zlZ-_Q" key="version" value="0.1.0"/>
+  </Services:ServiceConnection>
   <Services:ServicePort xmi:id="_yP4CALctEea3EIc7zlZ-_Q" name="NotificationPort" id="_Vo7cgLZ5EeaSm56G1X_JSA" serviceOperation="_yP4CAbctEea3EIc7zlZ-_Q"/>
   <Services:ServiceOperation xmi:id="_yP4CAbctEea3EIc7zlZ-_Q" label="notifications-SalesforceOpportunity_notifications" name="notifications" id="_Vo8DkLZ5EeaSm56G1X_JSA" referenceJobId="_gQreULZ5EeaSm56G1X_JSA" documentation="Process a number of notifications."/>
 </xmi:XMI>
