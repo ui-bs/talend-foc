@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/Jobs/SalesforceOpportunity_notifications/tHMap_2_input.xml' outStruct='Structures/SalesforceOpportunity/Elements/tns/notificationsResponse.xml' inputRep='178' outputRep='172' nextMap='' inputStructUserName='tHMap_2_input' outputStructUserName='notificationsResponse' V1='4' name='tHMap_2' incarnation='65'>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/SalesforceOpportunity_notifications/tHMap_2_input.xml' outStruct='Structures/SalesforceOpportunity/Elements/tns/notificationsResponse.xml' inputRep='178' outputRep='172' nextMap='' inputStructUserName='tHMap_2_input' outputStructUserName='notificationsResponse' V1='4' name='tHMap_2' incarnation='79'>
   <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
+    <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
+      <mapNode t='190' idref='1'/>
+    </child>
   </inputMapElem>
-  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_loop='true' V1='4' name='notificationsResponse'>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='6' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_loop='true' V1='4' name='notificationsResponse'>
     <mapNode t='190' idref='1'/>
-    <loop>SimpleLoop([autoAdded="true"],in$/root,{Filter},{Sort Keys},{Contexts})</loop>
+    <loop>SimpleLoop([autoAdded="true"],in$/root/row,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='13' V200='8' structElemExists='true' valueSetIndex='1' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_value='true' V1='4' name='Ack'>
+      <mapNode t='190' idref='1'/>
+      <value>Constant([value="true",dataType="2"],)</value>
+    </child>
   </outputMapElem>
   <outputNsList t='161' id='4' V161='1' namespaceUri='___osdtDummy___' V1='4'>
   </outputNsList>
