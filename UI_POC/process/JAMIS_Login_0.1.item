@@ -129,9 +129,9 @@
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="jamis_user"/>
-      <elementValue elementRef="VALUE" value="&quot;a&quot;"/>
+      <elementValue elementRef="VALUE" value="context.user"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="jamis_password"/>
-      <elementValue elementRef="VALUE" value="&quot;b&quot;"/>
+      <elementValue elementRef="VALUE" value="context.password"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
