@@ -207,7 +207,7 @@
     <elementParameter field="TEXT" name="METHOD" value="Login(Login):LoginResponse" show="false"/>
     <elementParameter field="TEXT" name="SOAP_ACTION" value="http://www.acumatica.com/generic/Login" show="false"/>
     <elementParameter field="TEXT" name="COMMUNICATION_STYLE" value="request-response" show="false"/>
-    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="true"/>
     <elementParameter field="CHECK" name="FOLLOW_REDIRECTS" value="false"/>
     <elementParameter field="CHECK" name="REDIRECT_NON_SAME_HOST" value="false" show="false"/>
     <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
