@@ -285,9 +285,146 @@
       <column comment="" key="false" length="-1" name="Session" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_2" show="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="VALUE" value="&quot;foo&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_2">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tXMLMap_3" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="getSchema_request">
+      <column defaultValue="" key="false" length="0" name="payload" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees name="row3" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+        <nodes name="newColumn" type="id_String" xpath="row3/newColumn"/>
+      </inputTrees>
+      <outputTrees name="getSchema_request">
+        <nodes name="payload" expression="" type="id_Document" xpath="getSchema_request/payload">
+          <children xsi:type="TalendXMLMap:OutputTreeNode" name="tns:GetSchema" expression="&quot;&quot;" type="id_String" xpath="getSchema_request.payload:/tns:GetSchema" loop="true" main="true">
+            <children xsi:type="TalendXMLMap:OutputTreeNode" name="tns" type="id_String" xpath="getSchema_request.payload:/tns:GetSchema/xmlns:tns" nodeType="NAME_SPACE" defaultValue="http://www.acumatica.com/typed/"/>
+          </children>
+        </nodes>
+      </outputTrees>
+      <varTables name="Var" minimized="true"/>
+    </nodeData>
+  </node>
+  <node componentName="tESBConsumer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tESBConsumer_2" show="false"/>
+    <elementParameter field="EXTERNAL" name="SERVICE_CONFIGURATION" value=""/>
+    <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="SERVICE_LOCATOR_STRATEGY" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="false"/>
+    <elementParameter field="CHECK" name="USE_SR" value="false"/>
+    <elementParameter field="LABEL" name="AUTHENTICATION_LABEL" value="" show="false"/>
+    <elementParameter field="CHECK" name="AUTH_PROPAGATE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="SAML" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROPAGATE_TYPE" value="NONE" show="false"/>
+    <elementParameter field="LABEL" name="PROPAGATE_U_P_LABEL" value="" show="false"/>
+    <elementParameter field="LABEL" name="PROPAGATE_CERT_LABEL" value="" show="false"/>
+    <elementParameter field="TEXT" name="AUTH_ALIAS" value="&quot;alias&quot;" show="false"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="PoLvNyVG2XWndNDdLn696A==" show="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false" show="false"/>
+    <elementParameter field="LABEL" name="AUTHORIZATION_LABEL" value="" show="false"/>
+    <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="NEED_ENCRYPTION" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
+    <elementParameter field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="ESB_ENDPOINT" value="&quot;https://urbant.jamisprime.com/Soap/PM2016JM.asmx&quot;"/>
+    <elementParameter field="TEXT" name="ENDPOINT" value="&quot;https://urbant.jamisprime.com/Soap/PM2016JM.asmx?WSDL&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SERVICE_NS" value="http://www.acumatica.com/typed/" show="false"/>
+    <elementParameter field="TEXT" name="SERVICE_NAME" value="Screen" show="false"/>
+    <elementParameter field="TEXT" name="PORT_NS" value="http://www.acumatica.com/typed/" show="false"/>
+    <elementParameter field="TEXT" name="PORT_NAME" value="ScreenSoap" show="false"/>
+    <elementParameter field="TEXT" name="METHOD_NS" value="http://www.acumatica.com/typed/" show="false"/>
+    <elementParameter field="TEXT" name="METHOD" value="GetSchema(GetSchema):GetSchemaResponse" show="false"/>
+    <elementParameter field="TEXT" name="SOAP_ACTION" value="http://www.acumatica.com/typed/GetSchema" show="false"/>
+    <elementParameter field="TEXT" name="COMMUNICATION_STYLE" value="request-response" show="false"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="true"/>
+    <elementParameter field="CHECK" name="FOLLOW_REDIRECTS" value="false"/>
+    <elementParameter field="CHECK" name="REDIRECT_NON_SAME_HOST" value="false" show="false"/>
+    <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="TABLE" name="SERVICE_ACTIVITY_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="30"/>
+    <elementParameter field="LABEL" name="CONNECTION_TIMEOUT_DESC" value="(Studio Only, See Doc for Runtime)"/>
+    <elementParameter field="TEXT" name="RECEIVE_TIMEOUT" value="60"/>
+    <elementParameter field="LABEL" name="RECEIVE_TIMEOUT_DESC" value="(Studio Only, See Doc for Runtime)"/>
+    <elementParameter field="CHECK" name="NEED_SSL_TO_TRUSTSERVER" value="false"/>
+    <elementParameter field="TEXT" name="SSL_TRUSTSERVER_TRUSTSTORE" value="&quot;C:/clientTrustStore.trustStore&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="PoLvNyVG2XWndNDdLn696A==" show="false"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;61.163.92.4&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" value="8080" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="TEXT" name="WSDL_CONTENT" value="eJxdl4VXEwzbxmG0yqjRIQ3CAAlJpQSJUSKMjhEKSKc06KQFpLsbBk5glCCN1ES6G2R0j+Z7nvOe&#xD;&#xA;833v+a773HVdf8FPB4KHD8IhJibGkbIPUsP5L5H8004we2dBHw8bxz1mM485yf3bt/tyH46D3MYy&#xD;&#xA;m5owdQ1rnM5TLVq7SI+FwLl8Lu4VKHs9JzUPdieuqI1LvURp4NLOwpuRHoBLjo9Lnid7d0pHmEik&#xD;&#xA;Ss9+MdY/g2lJJOlmOaJou/Y8Xsr8fX+B7de+v7xekt1PfxxwuCLQGfFQR3wlZFEhiFTxF/tyhzYP&#xD;&#xA;NkvlccnYbVDwgx+S+Ey+y+McK0lyyiO5ORrdqmmBltS/buW0SVoz24Kx+45X1xPuOwtd5DZ57kNM&#xD;&#xA;GeW50+UXkRTk5VOc8rGSSmzPHwnkHxtIvu31hHzr2to4ILh6GsymxMIVM+/+uSkP3qUSRNDoI7Ru&#xD;&#xA;FqGa99w/+MM3/OrjjBlIskG3p09bsfkvTys/9iSYiNq4woOI8p89VKEarc9DcR+xbeaSkAqtCETg&#xD;&#xA;3WHWa+jwt2gU7ot+LhbhlbHpzlM9Wje1wCcfWfUhYDOPAVx84FjMpnHROjEgs5wjroB7v3xn+FO+&#xD;&#xA;raT7U4yT1LIwI+kRbAAix3lCcB/V8wOaa/DqQcfawIkVH7R/pp9TSfIaYhgJ5euGRxvRrAVKU+zs&#xD;&#xA;vLzyuOqqU+/Wg3wOqCpsURbkGkmq2E7TD7VrEl+5BK9JZf/ijsOQvXk4PsIx/dutloxYwmbynV81&#xD;&#xA;vv4ykOaCrtSK2kDHgSff6wE+OCEuc3RyW+Kzu5K2M30is6UtA4PpiiQcxDtCRN4NOM84vOSwMuUZ&#xD;&#xA;4z4FlCbRKVjw7jc+VeMeqWXO9zJ8UkgZTD1Drbht2mFCZiVPIbVfYDtTZuaw4uCFOr5xJKxUkh+G&#xD;&#xA;DvMSaFea5DOwtZP20PUbThAyOyKsfnAIn2+wVFo/75Lr4CVuF4wHj9GlzEwdLUxJi13Wvq2y5Zbj&#xD;&#xA;oLsYjZMs6g2Mr/YOVoxr6b3SZ6DwgAdtii98lK8i+4RbFEMh9Gqagv0H/a57RA8zNwj9hKuuTzL8&#xD;&#xA;SJDijvDWVKalHsmzD/n1PIrdPB5M8TsRC5Fr1r/gDpqqCI40BIWUBjlIWw6k06lmPAg2HaaMnbUQ&#xD;&#xA;LugKm+F2ZIxJREdnPfki/auPuc1EdlEmMT+FfOnomqsCrA6xcA4tNOyO2s2EDCY5jHIDWT0ifWjw&#xD;&#xA;bcgCbS/S3kYvGMe5KjwlIn5pXE8/85JxNlmmgTynES8ySx9VWe8qw7uqjVL/av0iToqnsXp0Z6mB&#xD;&#xA;4pScWF3OJGMrI9Sb7WtNBBvM1HSX+91ngSYFNtOotI4ns/WHJ2yBIZS+mUTFj39JN1ek8aR26O9Q&#xD;&#xA;jivJDb0sIwoANFMfn23PvZ/jP+njlWdZbTVvju3K9kZIKBh8vRkkPpVY72JZpmUNmSZ6a8OJ6hGJ&#xD;&#xA;cfzChvrS78OgWNQ8UXEPTHjYfMgmiinEJ28eVru1tH5q1kdmAvOPJ3rDWMUxE1ob4BYHyFWs6tm3&#xD;&#xA;NHnmZbynXyLyxVogDN9fRWxhnN0f7Qku1nGPBRFtUVylYxcsT163f7P6uRV1VfmBCI3/t70lNcFL&#xD;&#xA;o868UVBVy+pMuMypBGFMaczB6ctoFw63f9UR7HJMPckVENKhADTWdbX/LkB1Q+dn2vBpzRZzXFbC&#xD;&#xA;r10q2nfuG6A5vjy6oqGNN/xc9TDvodFpyBTcAh+e3uqKCw8AcIyQ/qBmWmLsfAXPODqnf/2W0FfA&#xD;&#xA;c5ZYp5uH7FUIxFLyFBAd0vfolHLAAySKlYjiFc6aAXnTpGlCc2tzQZOgs3mVG8ooLlpJn/m/ZPGy&#xD;&#xA;X5AbMc2V1iiX6fZUjcOw3TGdo7ORrCo+hUv+gkuGfQvajvfyPfeXlboxFitj/AXimh9+6H18VjpW&#xD;&#xA;AdCEHHzjy8ZfE83xLu2aQje/YWPGxMswDnsBeV7XOLziDLRJdIn8HPSnVGRy9yvBpJBO4y6r4bJJ&#xD;&#xA;wl3t85BNAwnrcjGZB+qlwPoVdRwajpy+cdqH+lpiBCw1GmprEplj9IJM1WZDbPx3+ulBCwc0aws4&#xD;&#xA;5wgR+eN27uOKjIg9WKFomL2lffmeG1jx4SB6UOBvHN8jmQrO1jb7mZwLl9esz0GBBcZ3IsT+QXU9&#xD;&#xA;ap4KVvO+WgtUXJ3m5NeH74hvKBf2SArNf/mAPrrwO0IjRJz7oXx3SHeFJ1dokIf1ndl62l7jtrQT&#xD;&#xA;Bh2HHceH1QRMxIyA1I4SvSZSBD5ixcHV7BG/e1IuSd13CpYVnUUMNpkqWZM/Ghfri9BfCtEUgEIz&#xD;&#xA;cG6iloPmjTebrxqHgtG2tHCjj+o0shA7jmWhTnbxhlCtaepnKj/FhivU2mUjxsRQMGXcvKzbsEYj&#xD;&#xA;cW9BlLW1ZbrsvsKA1Lo/8bAl7a60uIbIA51OxpFbjxgBvmwhxVSGF2M5ku+jhDL8kwqjwtdAsnoq&#xD;&#xA;mOn4ucq5XSt4NyIwh0lRFtVm2Fab5wKfhlHcHR5ew7C4RC94nNO6DuR+9sk9OgP4w3W3jhgnsi5M&#xD;&#xA;YcoFsxxeiOJ35q1RVaRkB2Yp0rcPcj138jDRMvxUo9ltTXPSo5Nx5wLWSuj5rTFcQv5PnodGoR4N&#xD;&#xA;opt2ubB3Vd8XR2agsSrqFT0yM86H3yV6/2RugePoHw14cN7h9UidgStsPxpq7p6UfZD1NildR+r2&#xD;&#xA;QtzDjWMp+laZH1ev7kUKA2L2SF5MKwuPsr8WYepvbWQNqq9Ulybczv8sagmdmdbOJ1D3zKvta3vH&#xD;&#xA;8W7Rtq71agL81fXWC2VqeueGTLdA17jQ1G5MHrZmXm76oW6s22aqxFvDMhC0wQHZLqjoiXrbvBqj&#xD;&#xA;09/WFwPvi4smN/pUhP0496dH/Vliubaycpuc2OTi6DutbM0AQVm+0vwEDVzXrPe6L4xVpLrAHi/C&#xD;&#xA;9FK78XD1SKlUJm7z6LAXEkp6FywvK/r7T/THpOOqymFO4eA/wmF6jJm6/EveLaNSlr9Eq6hSuOrC&#xD;&#xA;aKtt2kWi70WPA+3mxKbyiYB1VYhDxOJ3++DYCr41xg0t6BcLNeUfb7LsLxv/GdlNJotqp55qPww/&#xD;&#xA;DgbX4Hq8gCtKHdPpPnHO01FAUn0RUxqtX4aKgGRZKd9XYKsyhGzH4G9iKuw79wIU5Fv9fXc6cX+c&#xD;&#xA;N7XXuSIXFbdnwdQb21xhUeHQwEJWVh/73wpGxv1ULbqdVTJIY/m0F8y23Oa9Tk9LpLcLrErr+C9U&#xD;&#xA;WWpvFL2jB5FPl1hZmOy69/gjez8HT/KKWu+BMASwL3NOVV/VI5t7fTWV0qCiY+e144ucS1Z4C4IH&#xD;&#xA;b3GxZJnXu+IGb/Tv1YcOohZxY+6IMghiUVB2nCGEsInp0IRU6EDVJFXH5HTiJm4p75jWuiaFfFA+&#xD;&#xA;Z+x48ICEI7PtN9HSQjPcR/uszAQY/78tE0MnNntS7bENACOBDxg//2zrJSmtJ3BfAALUiaBbZVbF&#xD;&#xA;3wXtaaRwwqjtpc2336uzxIuxHwMBTdvZ/ixqob9Vf00U+0iALAkT1n/zbWqYc3u1mCOy49bLEQqN&#xD;&#xA;75xLWXHoohH8ogbJ0VJZMXkPzN+2kWV74iXd6jWloa0tNA7BntVnx4YrAB05+mXDnB1YqbtYcLnd&#xD;&#xA;w5uVvjZOOdR49aW6qVGT53P5hWrspTW+LXqRCy0EaYDOIv8sNdZLs4Y4cokrboMQzYOpXI8j02HB&#xD;&#xA;zG8OWJ7qSxyILZ2w4qjVq1yrhjUuPG02OzmrxiCHXf38VSIxp5FfxNclapJGaMgQ2p9yfMdc5fpr&#xD;&#xA;ekruv7cl7NNAtpYokUP5a1nV1+Aj4nI4/MTaKP8ld4cbfdMm3+fHr7ZIGdj2sulrusltc41cs7kR&#xD;&#xA;AbXWu15O30fntZqae9b7rILcoi9tw/P7FyRqukWIaTckFH+Wk/chOdzSmcVd8lTKDuhakr6fzG8b&#xD;&#xA;eh+frc/GBW5XPUPiTRUC9Amitzv67PfwsvqJpLqKLNijv+rfz6SE2H31QXO6fk37DuIdcJYHFZWa&#xD;&#xA;pl6fHWNLLqNtAaO4Jmqqfn3hCTqtQ/asJMl+q/lJdtFIIsqkpX6eSCPqjdvN8TpzPsmsggEJJifi&#xD;&#xA;nRtujPzVA2UWpeQ25fG35wkHREB97mGfx+E7qGK++sXuTZ1kwgHVa6PXJgr97i7+MExUb/gbqDMH&#xD;&#xA;Mh9RydyTPE/I8PvtQaiMGymn2tR3sfiyohqHw3HM3HfC0YI2qxd64GQyh5bpRcLMvuPAtK53BCv5&#xD;&#xA;SnqzXxATVqwExYs/8weV613IJPhm0R5zl3TNqhmIPEGUJn/0pgMSSBl5/ulsMvaKVfcU+6bpeDrc&#xD;&#xA;OWIvEO6c9XMF3XL3cHoyOiBe0KCaVJhbAe3T1NBRSF4xYVYcomRkYaG2Fo2vC4Cvp2ryYOi4FqqR&#xD;&#xA;YgIh74nh+Y593xwM/+D/OAdz1CXeiDfUfUrEY3GTKwEqOwAv3gcltEXXpxiWSRg4DQ6QvJwYrG+Z&#xD;&#xA;+eP4EC/tT48Nqspun8TFttgpfKdP/f0H+0H125R9qGzdZWGQxpaPuAlwu4Ec5Z6n2Xm2Jp979w1a&#xD;&#xA;Ouv1eq+5aM7cjy9hkrR+I8+bS4cfr1k+7/Gt8dQE7mXy4IvmLZdeilb6EaUyIDjhbjVOsGWcog2L&#xD;&#xA;0jJLpyIawuwvbVkhnv2ez0R630/NCOq2Eq8eahX045DOa3pKSb5BidyLnclCgBgg7PFKS4mccZN7&#xD;&#xA;4UqxyJHKnWBq/TUltjTRH11INmbvvtmp9bhLXjGH0k8i+T5tYOmki0nUwoBUH6dfLjH2IKDuP4wD&#xD;&#xA;wmGRPFOVTK67HsMfgx/x+K5l5S5y6UhDrsrSI7OkVuU0rXwRKiEf9lpEiEpdiVGv53dWOt+z3gqu&#xD;&#xA;l7mtIZTS1q61igw86gRsUwMc/g5DtGgLHqXOn8skmHKwMwiiQBNzqUYchIyCtf+5tmsNc0gqGoRq&#xD;&#xA;/bKkTG1ISg4UrSZGJtVtKP9N/Z861X+CugbR6o6/2oOKgGE3gpxlmuSSh2ug3gaOjlNYxnPeYnZD&#xD;&#xA;3RMjNeVx4KZq0FMDtF5R2WwCNf1ZO7bccDRxFxhiQ5iW9jFtH2ezNPgjOTKigLzCPl6yZKcSe4C+&#xD;&#xA;OxuceGK5Yv21iff4iW2OLrC78DSUzIVCK0O6p+seTwdCRHyS0dwTCMTBEc/DwdGB4AJAOP9Hrf+d&#xD;&#xA;keD8f/0vw+pACAj/NXD/KYl/dh3w3+9/AJGUXY8=&#xD;&#xA;" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tESBConsumer_2">
+      <column defaultValue="" key="false" length="0" name="payload" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="RESPONSE" name="RESPONSE">
+      <column defaultValue="" key="false" length="0" name="payload" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FAULT" name="FAULT">
+      <column defaultValue="" key="false" length="1024" name="faultCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="1024" name="faultString" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="1024" name="faultActor" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="1024" name="faultNode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="1024" name="faultRole" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="faultDetail" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="payload"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column defaultValue="" key="false" length="0" name="payload" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tXMLMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tFixedFlowInput_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="login_request" lineStyle="0" metaname="login_request" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tESBConsumer_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -301,11 +438,28 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="token" show="false"/>
   </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tXMLMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="getSchema_request" lineStyle="0" metaname="getSchema_request" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_3" target="tESBConsumer_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="getSchema_request" show="false"/>
+  </connection>
+  <connection connectorName="RESPONSE" label="row4" lineStyle="0" metaname="tESBConsumer_2" offsetLabelX="0" offsetLabelY="0" source="tESBConsumer_2" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+  </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>
     <elementParameter field="TEXT" name="SUBJOB_TITLE" value="JAMIS Login"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
 </talendfile:ProcessType>
