@@ -221,7 +221,7 @@
 <service name="NotificationService">
 <documentation>Notification Service Implementation</documentation>
 <port binding="tns:NotificationBinding" name="Notification">
-<soap:address location="http://fake83673836.org"/>
+<soap:address location="http://localhost:8090/services/Opportunity"/>
 </port>
 </service>
 </definitions>
