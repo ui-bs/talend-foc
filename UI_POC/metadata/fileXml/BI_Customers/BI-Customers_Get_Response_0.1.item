@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_yGhOULvmEeacWvIKNY1caw" name="BI-Customers_Get_Response" dataPackage="_yGhOWrvmEeacWvIKNY1caw" XmlFilePath="F:/Urban Institute/BI-Customers_Response.xml" Encoding="UTF-8" inputModel="false" fileContent="3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0D0A3C726F6F743E3C6F646174612E6D657461646174613E68747470733A2F2F757262616E742E6A616D69737072696D652E636F6D2F6F646174612F246D657461646174612342492D437573746F6D6572733C2F6F646174612E6D657461646174613E3C76616C75653E3C4163636F756E743E4D41494E20203C2F4163636F756E743E3C437573746F6D65724E616D653E4D41494E3C2F437573746F6D65724E616D653E3C436C6173732F3E3C547970653E436F6D70616E793C2F547970653E3C436F756E7472793E55533C2F436F756E7472793E3C53746174652F3E3C2F76616C75653E3C76616C75653E3C4163636F756E743E4330303030313C2F4163636F756E743E3C437573746F6D65724E616D653E44656661756C7420437573746F6D657220666F722054657374696E6720507572706F7365733C2F437573746F6D65724E616D653E3C436C6173732F3E3C547970653E437573746F6D65723C2F547970653E3C436F756E7472793E55533C2F436F756E7472793E3C53746174652F3E3C2F76616C75653E3C76616C75653E3C4163636F756E743E5630303030313C2F4163636F756E743E3C437573746F6D65724E616D653E56656E646F7220666F722054657374696E67205075706F7365733C2F437573746F6D65724E616D653E3C436C6173732F3E3C547970653E56656E646F723C2F547970653E3C436F756E7472793E55533C2F436F756E7472793E3C53746174652F3E3C2F76616C75653E3C76616C75653E3C4163636F756E743E4530303030313C2F4163636F756E743E3C437573746F6D65724E616D653E5465737420456D706C6F7965653C2F437573746F6D65724E616D653E3C436C6173732F3E3C547970653E456D706C6F7965653C2F547970653E3C436F756E7472793E55533C2F436F756E7472793E3C53746174652F3E3C2F76616C75653E3C2F726F6F743E">
+    <root xmi:id="_yGhOUbvmEeacWvIKNY1caw" XMLPath="/root" RelatedColumn="" Attribute="main" Order="1" Type="id_String"/>
+    <root xmi:id="_yGhOUrvmEeacWvIKNY1caw" XMLPath="/root/odata.metadata" RelatedColumn="odata_metadata" Attribute="branch" Order="1" Type="id_String"/>
+    <loop xmi:id="_yGhOU7vmEeacWvIKNY1caw" XMLPath="/root/value" RelatedColumn="" Attribute="main" Order="2" Type="id_String"/>
+    <loop xmi:id="_yGhOVLvmEeacWvIKNY1caw" XMLPath="/root/value/Account" RelatedColumn="Account" Attribute="branch" Order="3" Type="id_String"/>
+    <loop xmi:id="_yGhOVbvmEeacWvIKNY1caw" XMLPath="/root/value/CustomerName" RelatedColumn="CustomerName" Attribute="branch" Order="4" Type="id_String"/>
+    <loop xmi:id="_yGhOVrvmEeacWvIKNY1caw" XMLPath="/root/value/Class" RelatedColumn="Class" Attribute="branch" Order="5" Type="id_String"/>
+    <loop xmi:id="_yGhOV7vmEeacWvIKNY1caw" XMLPath="/root/value/Type" RelatedColumn="Type" Attribute="branch" Order="6" Type="id_String"/>
+    <loop xmi:id="_yGhOWLvmEeacWvIKNY1caw" XMLPath="/root/value/Country" RelatedColumn="Country" Attribute="branch" Order="7" Type="id_String"/>
+    <loop xmi:id="_yGhOWbvmEeacWvIKNY1caw" XMLPath="/root/value/State" RelatedColumn="State" Attribute="branch" Order="8" Type="id_String"/>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_yGhOWrvmEeacWvIKNY1caw" name="default" dataManager="_yGhOULvmEeacWvIKNY1caw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yGh1YLvmEeacWvIKNY1caw" id="_kbtrMLvmEeacWvIKNY1caw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yGh1YbvmEeacWvIKNY1caw" name="odata.metadata" label="odata_metadata" length="128" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yGh1YrvmEeacWvIKNY1caw" name="Account" label="Account" length="64" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yGh1Y7vmEeacWvIKNY1caw" name="CustomerName" label="CustomerName" length="128" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yGh1ZLvmEeacWvIKNY1caw" name="Class" label="Class" length="64" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yGh1ZbvmEeacWvIKNY1caw" name="Type" label="Type" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yGh1ZrvmEeacWvIKNY1caw" name="Country" label="Country" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yGh1Z7vmEeacWvIKNY1caw" name="State" label="State" length="64" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
