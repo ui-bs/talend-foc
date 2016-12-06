@@ -461,6 +461,8 @@
       <elementValue elementRef="HEADER_VALUE" value="&quot;application/json;odata=verbose&quot;"/>
       <elementValue elementRef="HEADER_NAME" value="&quot;.ASPXAUTH&quot;"/>
       <elementValue elementRef="HEADER_VALUE" value="&quot;0BD651805AE7E5ADA8B4BAD14769D97CB0AC3CB7A9B0A78FB82652CF7846B4F425B65C147DDDF985FD54594711212392F3623ECD8FCE75C5C5FBF6866A592850AA9DBAD456977960DB5E6C55D9538E4B4EEFE3C985764A11C47231F4566E87E99350B860BB8C4E8AE199848459F3A7D0AA81C2F6&quot;"/>
+      <elementValue elementRef="HEADER_NAME" value="&quot;ASP.NET_SessionId&quot;"/>
+      <elementValue elementRef="HEADER_VALUE" value="&quot;bs4vi5ps4n25wru5j5wmb0dz&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NEED_AUTHENTICATION" value="false"/>
     <elementParameter field="TEXT" name="USR" value="&quot;&quot;" show="false"/>
