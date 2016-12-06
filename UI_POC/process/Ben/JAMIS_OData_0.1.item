@@ -221,7 +221,7 @@
       <column comment="" key="false" length="-1" name="metadata" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Account" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CustomerName" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Class" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CustomerClass" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Type" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Country" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="State" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -248,7 +248,7 @@
         <nodes name="metadata" expression="[row1.body:/root/odata.metadata]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.0" xpath="response_di/metadata"/>
         <nodes name="Account" expression="[row1.body:/root/value/Account]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.1" xpath="response_di/Account"/>
         <nodes name="CustomerName" expression="[row1.body:/root/value/CustomerName]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.2" xpath="response_di/CustomerName"/>
-        <nodes name="Class" expression="[row1.body:/root/value/Class]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.3" xpath="response_di/Class"/>
+        <nodes name="CustomerClass" expression="[row1.body:/root/value/Class]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.3" xpath="response_di/CustomerClass"/>
         <nodes name="Type" expression="[row1.body:/root/value/Type]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.4" xpath="response_di/Type"/>
         <nodes name="Country" expression="[row1.body:/root/value/Country]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.5" xpath="response_di/Country"/>
         <nodes name="State" expression="[row1.body:/root/value/State]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.6" xpath="response_di/State"/>
@@ -283,7 +283,7 @@
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CustomerName"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Class"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerClass"/>
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Type"/>
       <elementValue elementRef="LENGTH" value="10"/>
@@ -295,11 +295,11 @@
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="flat" name="tLogRow_1">
+    <metadata connector="FLOW" label="response_di" name="tLogRow_1">
       <column comment="" key="false" length="-1" name="metadata" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Account" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CustomerName" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Class" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CustomerClass" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Type" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Country" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="State" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
