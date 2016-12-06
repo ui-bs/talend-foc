@@ -436,7 +436,7 @@
       <column defaultValue="" key="false" length="0" name="payload" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="128">
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TABLE" name="VARIABLES">
