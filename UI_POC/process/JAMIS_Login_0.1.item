@@ -349,14 +349,14 @@
     <elementParameter field="CHECK" name="USE_SR" value="false"/>
     <elementParameter field="LABEL" name="AUTHENTICATION_LABEL" value="" show="false"/>
     <elementParameter field="CHECK" name="AUTH_PROPAGATE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="SAML" show="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC"/>
     <elementParameter field="CLOSED_LIST" name="PROPAGATE_TYPE" value="NONE" show="false"/>
     <elementParameter field="LABEL" name="PROPAGATE_U_P_LABEL" value="" show="false"/>
     <elementParameter field="LABEL" name="PROPAGATE_CERT_LABEL" value="" show="false"/>
     <elementParameter field="TEXT" name="AUTH_ALIAS" value="&quot;alias&quot;" show="false"/>
-    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="PoLvNyVG2XWndNDdLn696A==" show="false"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.user"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="8pW6Nmy2kuczSBOgoJ7Ub24fQgd+SRSj"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false" show="false"/>
     <elementParameter field="LABEL" name="AUTHORIZATION_LABEL" value="" show="false"/>
     <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>
