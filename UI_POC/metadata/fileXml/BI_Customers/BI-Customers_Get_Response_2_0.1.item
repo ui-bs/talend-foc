@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_YSwDYLvoEeacWvIKNY1caw" name="BI-Customers_Get_Response_2" dataPackage="_YSwDabvoEeacWvIKNY1caw" XmlFilePath="F:/Urban Institute/BI-Customers_Response.xml" Encoding="UTF-8" fileContent="3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0D0A3C726F6F743E3C6F646174612E6D657461646174613E68747470733A2F2F757262616E742E6A616D69737072696D652E636F6D2F6F646174612F246D657461646174612342492D437573746F6D6572733C2F6F646174612E6D657461646174613E3C76616C75653E3C4163636F756E743E4D41494E20203C2F4163636F756E743E3C437573746F6D65724E616D653E4D41494E3C2F437573746F6D65724E616D653E3C436C6173732F3E3C547970653E436F6D70616E793C2F547970653E3C436F756E7472793E55533C2F436F756E7472793E3C53746174652F3E3C2F76616C75653E3C76616C75653E3C4163636F756E743E4330303030313C2F4163636F756E743E3C437573746F6D65724E616D653E44656661756C7420437573746F6D657220666F722054657374696E6720507572706F7365733C2F437573746F6D65724E616D653E3C436C6173732F3E3C547970653E437573746F6D65723C2F547970653E3C436F756E7472793E55533C2F436F756E7472793E3C53746174652F3E3C2F76616C75653E3C76616C75653E3C4163636F756E743E5630303030313C2F4163636F756E743E3C437573746F6D65724E616D653E56656E646F7220666F722054657374696E67205075706F7365733C2F437573746F6D65724E616D653E3C436C6173732F3E3C547970653E56656E646F723C2F547970653E3C436F756E7472793E55533C2F436F756E7472793E3C53746174652F3E3C2F76616C75653E3C76616C75653E3C4163636F756E743E4530303030313C2F4163636F756E743E3C437573746F6D65724E616D653E5465737420456D706C6F7965653C2F437573746F6D65724E616D653E3C436C6173732F3E3C547970653E456D706C6F7965653C2F547970653E3C436F756E7472793E55533C2F436F756E7472793E3C53746174652F3E3C2F76616C75653E3C2F726F6F743E">
+    <schema xmi:id="_YSwDYbvoEeacWvIKNY1caw" LimitBoucle="-1" AbsoluteXPathQuery="/root/value">
+      <schemaTargets xmi:id="_YSwDYrvoEeacWvIKNY1caw" RelativeXPathQuery="../odata.metadata" TagName="odata_metadata"/>
+      <schemaTargets xmi:id="_YSwDY7voEeacWvIKNY1caw" RelativeXPathQuery="../value/Account" TagName="Account"/>
+      <schemaTargets xmi:id="_YSwDZLvoEeacWvIKNY1caw" RelativeXPathQuery="../value/CustomerName" TagName="CustomerName"/>
+      <schemaTargets xmi:id="_YSwDZbvoEeacWvIKNY1caw" RelativeXPathQuery="../value/Class" TagName="CustomerClass"/>
+      <schemaTargets xmi:id="_YSwDZrvoEeacWvIKNY1caw" RelativeXPathQuery="../value/Type" TagName="Type"/>
+      <schemaTargets xmi:id="_YSwDZ7voEeacWvIKNY1caw" RelativeXPathQuery="../value/Country" TagName="Country"/>
+      <schemaTargets xmi:id="_YSwDaLvoEeacWvIKNY1caw" RelativeXPathQuery="../value/State" TagName="State"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_YSwDabvoEeacWvIKNY1caw" name="default" dataManager="_YSwDYLvoEeacWvIKNY1caw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_YSwDarvoEeacWvIKNY1caw" id="_CSXVYLvoEeacWvIKNY1caw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YSwDa7voEeacWvIKNY1caw" label="odata_metadata" length="256" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YSwDbLvoEeacWvIKNY1caw" label="Account" length="64" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YSwDbbvoEeacWvIKNY1caw" label="CustomerName" length="64" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YSwDbrvoEeacWvIKNY1caw" label="CustomerClass" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YSwDb7voEeacWvIKNY1caw" label="Type" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YSwDcLvoEeacWvIKNY1caw" label="Country" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YSwDcbvoEeacWvIKNY1caw" label="State" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
