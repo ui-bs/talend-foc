@@ -350,8 +350,8 @@
     <elementParameter field="LABEL" name="AUTHENTICATION_LABEL" value="" show="false"/>
     <elementParameter field="CHECK" name="AUTH_PROPAGATE" value="false" show="false"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="TOKEN"/>
-    <elementParameter field="CLOSED_LIST" name="PROPAGATE_TYPE" value="NONE" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="DIGEST"/>
+    <elementParameter field="CLOSED_LIST" name="PROPAGATE_TYPE" value="U_P" show="false"/>
     <elementParameter field="LABEL" name="PROPAGATE_U_P_LABEL" value="" show="false"/>
     <elementParameter field="LABEL" name="PROPAGATE_CERT_LABEL" value="" show="false"/>
     <elementParameter field="TEXT" name="AUTH_ALIAS" value="&quot;alias&quot;" show="false"/>
