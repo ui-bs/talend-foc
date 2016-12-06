@@ -217,7 +217,7 @@
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false" show="false"/>
     <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="flat" name="flat">
+    <metadata connector="FLOW" label="response_di" name="response_di">
       <column comment="" key="false" length="-1" name="metadata" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Account" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CustomerName" nullable="true" precision="-1" sourceType="id_String" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -244,14 +244,14 @@
         </nodes>
         <nodes name="string" type="id_String" xpath="row1/string"/>
       </inputTrees>
-      <outputTrees name="flat">
-        <nodes name="metadata" expression="[row1.body:/root/odata.metadata]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.0" xpath="flat/metadata"/>
-        <nodes name="Account" expression="[row1.body:/root/value/Account]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.1" xpath="flat/Account"/>
-        <nodes name="CustomerName" expression="[row1.body:/root/value/CustomerName]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.2" xpath="flat/CustomerName"/>
-        <nodes name="Class" expression="[row1.body:/root/value/Class]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.3" xpath="flat/Class"/>
-        <nodes name="Type" expression="[row1.body:/root/value/Type]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.4" xpath="flat/Type"/>
-        <nodes name="Country" expression="[row1.body:/root/value/Country]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.5" xpath="flat/Country"/>
-        <nodes name="State" expression="[row1.body:/root/value/State]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.6" xpath="flat/State"/>
+      <outputTrees name="response_di">
+        <nodes name="metadata" expression="[row1.body:/root/odata.metadata]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.0" xpath="response_di/metadata"/>
+        <nodes name="Account" expression="[row1.body:/root/value/Account]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.1" xpath="response_di/Account"/>
+        <nodes name="CustomerName" expression="[row1.body:/root/value/CustomerName]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.2" xpath="response_di/CustomerName"/>
+        <nodes name="Class" expression="[row1.body:/root/value/Class]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.3" xpath="response_di/Class"/>
+        <nodes name="Type" expression="[row1.body:/root/value/Type]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.4" xpath="response_di/Type"/>
+        <nodes name="Country" expression="[row1.body:/root/value/Country]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.5" xpath="response_di/Country"/>
+        <nodes name="State" expression="[row1.body:/root/value/State]" type="id_String" incomingConnections="//@node.2/@nodeData/@connections.6" xpath="response_di/State"/>
       </outputTrees>
       <varTables name="Var" minimized="true"/>
       <connections xsi:type="TalendXMLMap:Connection" source="//@node.2/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0"/>
@@ -313,9 +313,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="flat" lineStyle="0" metaname="flat" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="response_di" lineStyle="0" metaname="response_di" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="flat" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="response_di" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_1" show="false"/>
