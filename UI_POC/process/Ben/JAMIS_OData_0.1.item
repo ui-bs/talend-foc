@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" name="user" prompt="user?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_String" value=""/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_Password" value=""/>
+    <contextParameter comment="" name="api_url" prompt="api_url?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" name="user" prompt="user?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_String" value="bs-integration"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_Password" value="PrT+NDdqPMAoh7oNnQi9mA=="/>
+    <contextParameter comment="" name="api_url" prompt="api_url?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_String" value="https://urbant.jamisprime.com/Soap/AR303000.asmx"/>
+  </context>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="user" prompt="user?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_String" value="bs-integration"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_Password" value="PrT+NDdqPMAoh7oNnQi9mA=="/>
+    <contextParameter comment="" name="api_url" prompt="api_url?" promptNeeded="false" repositoryContextId="_1dhBwLZ0EeaoGb77rxFw1A" type="id_String" value="https://urbant.jamisprime.com/Soap/APITEST1.asmx"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -242,9 +256,9 @@
       <elementValue elementRef="HEADER_NAME" value="&quot;Accept&quot;"/>
       <elementValue elementRef="HEADER_VALUE" value="&quot;application/json;odata=verbose&quot;"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="NEED_AUTHENTICATION" value="false"/>
-    <elementParameter field="TEXT" name="USR" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PWD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTHENTICATION" value="true"/>
+    <elementParameter field="TEXT" name="USR" value="context.user"/>
+    <elementParameter field="PASSWORD" name="PWD" value="8pW6Nmy2kuczSBOgoJ7Ub24fQgd+SRSj"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TIMEOUT_SETTING" value="false"/>
     <elementParameter field="TEXT" name="CONNECT_TIMEOUT" value="30" show="false"/>
